@@ -316,10 +316,10 @@ ORG = {'@context': 'https://schema.org', '@type': 'ProfessionalService', 'name':
        'telephone': PHONE, 'email': EMAIL, 'foundingDate': str(FOUNDED),
        'address': {'@type': 'PostalAddress', 'addressLocality': 'Vijayawada', 'addressRegion': 'Andhra Pradesh', 'addressCountry': 'IN'}}
 
-PROCESS = [('Discovery', 'We learn about your business, your market, and your goals.'),
-           ('Strategy', 'We create a tailored plan with clear timelines and deliverables.'),
-           ('Execution', 'Our in-house team builds, tests, and refines every detail.'),
-           ('Growth', 'We launch, measure results, and optimise for continuous improvement.')]
+PROCESS = [('Discovery', 'A free call to understand your customers, competitors and what success looks like for you.'),
+           ('Strategy', 'A written plan with scope, dated milestones and a fixed quote — agreed before work starts.'),
+           ('Execution', 'Design, content and build by our own team, with reviews at every stage.'),
+           ('Growth', 'After launch we track enquiries and rankings, then keep improving what works.')]
 
 
 def process_steps():
@@ -449,7 +449,7 @@ def service_page(slug):
         </div>
         <aside class="why-card reveal">
           <p class="eyebrow">Why us</p>
-          <h2>{YEARS} years. 2000+ brands. <span class="thin">One standard.</span></h2>
+          <h2>{YEARS} years, 2000+ brands, <span class="thin">one in-house team.</span></h2>
           <p>{e(s['why'])}</p>
           <dl class="mini-stats"><div><dd>2000+</dd><dt>Brands served</dt></div><div><dd>{YEARS}+</dd><dt>Years</dt></div><div><dd>5</dd><dt>Countries</dt></div><div><dd>100%</dd><dt>In-house team</dt></div></dl>
         </aside>
@@ -490,7 +490,7 @@ def service_page(slug):
         <div class="svc-links svc-links-center reveal">{rel}<a class="svc-link svc-link-all" href="{p}services/">View all services<span aria-hidden="true">→</span></a></div>
       </section>
 
-{cta_band(p, 'Ready to get <span class="thin">started?</span>', f'Tell us what you need. We’ll put together a {s["title"].lower()} plan built around your business and your budget.')}'''
+{cta_band(p, 'Ready to get <span class="thin">started?</span>', f'Share a few details about your business and we’ll come back with a {s["title"].lower()} plan and a fixed quote that fits your budget.')}'''
 
     ld = {'@context': 'https://schema.org', '@type': 'Service', 'name': s['title'], 'serviceType': s['title'], 'description': s['intro'],
           'provider': {'@type': 'ProfessionalService', 'name': SITE, 'url': BASE}, 'areaServed': 'Vijayawada'}
