@@ -402,6 +402,24 @@ svg {
     width: 36px;
   }
 }
+@media (max-width: 420px) {
+  .nav {
+    gap: 12px;
+  }
+  .brand {
+    gap: 8px;
+    font-size: 16px;
+  }
+  .brand-mark {
+    width: 32px;
+  }
+}
+@media (max-width: 370px) {
+  /* The floating "Chat on WhatsApp" pill is still there on tiny screens */
+  .nav .btn-wa {
+    display: none;
+  }
+}
 
 /* ---------- Buttons ---------- */
 .btn {
@@ -2400,21 +2418,11 @@ html:not(.motion) .dr-text .w {
     gap: 32px;
   }
 }
-.footer-word {
-  margin: 48px 0 12px;
-  font-size: clamp(30px, 9.2vw, 116px);
-  font-weight: 600;
-  letter-spacing: -0.06em;
-  line-height: 0.95;
-  white-space: nowrap;
-  background: linear-gradient(90deg, rgb(0 125 226 / 0.22), rgb(244 15 108 / 0.2) 55%, rgb(101 180 31 / 0.22));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  text-align: center;
-}
 .footer-bottom {
   display: flex;
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 8px 24px;

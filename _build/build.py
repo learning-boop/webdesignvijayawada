@@ -81,7 +81,7 @@ def header(p, active=None):
     return f'''    <header class="nav" id="nav">
       <a href="{home}" class="brand" aria-label="{SITE} — home">
         {brand_mark(p)}
-        <span>webdesign<b>vijayawada</b></span>
+        <span>Web Design <b>Vijayawada</b></span>
       </a>
 
       <nav class="nav-links" aria-label="Main">
@@ -119,7 +119,7 @@ def footer(p):
         <div class="footer-about">
           <a href="{p or './'}" class="brand">
             {brand_mark(p)}
-            <span>webdesign<b>vijayawada</b></span>
+            <span>Web Design <b>Vijayawada</b></span>
           </a>
           <p>Websites, branding, SEO and automation for businesses in Vijayawada and around the world — {2000}+ brands since {FOUNDED}.</p>
           <a class="btn btn-navy" href="{p}contact/">Start your website {ARROW}</a>
@@ -140,7 +140,6 @@ def footer(p):
           <span>Vijayawada, Andhra Pradesh</span>
         </div>
       </div>
-      <p class="footer-word" aria-hidden="true">webdesign vijayawada</p>
       <div class="footer-bottom">
         <span>© <span id="year">{datetime.date.today().year}</span> {SITE}. All rights reserved.</span>
         <span class="footer-legal"><a href="{p}privacy-policy/">Privacy policy</a><a href="{p}terms-and-conditions/">Terms &amp; conditions</a></span>
@@ -666,7 +665,7 @@ def careers():
           </article>''' for t, d in jobs)
         return f'''{page_hero(p, [('Careers', 'careers/')], 'Careers', 'Build what <em>matters.</em>',
                   'We’re a small team helping Indian businesses look credible, grow digitally, and compete globally. If you care about craft and impact, you’ll fit right in.',
-                  image=('careers-team', 'Colleagues working together around a table in a bright office'))}
+                  image=('careers-office', 'Our team in a planning meeting at the Creators Touch office'))}
 
       <section class="section">
         <div class="section-head reveal">
