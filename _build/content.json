@@ -1,0 +1,2758 @@
+{
+ "service_categories": [
+  {
+   "name": "Web Design & Development",
+   "anchor": "web",
+   "icon": "code",
+   "blurb": "Fast, search-ready websites, stores and portals built around how your customers decide.",
+   "services": [
+    "best-corporate-website-in-vijayawada",
+    "best-e-commerce-website-in-vijayawada",
+    "best-landing-page-design-in-vijayawada",
+    "best-responsive-web-design-in-vijayawada",
+    "best-cms-website-design-in-vijayawada",
+    "best-job-portal-website-in-vijayawada",
+    "best-real-estate-website-portal-in-vijayawada",
+    "best-matrimony-website-in-vijayawada",
+    "best-redesigning-website-in-vijayawada",
+    "best-website-maintenance-in-vijayawada",
+    "best-wordpress-development-in-vijayawada",
+    "best-shopify-store-design-in-vijayawada",
+    "best-next-js-development-in-vijayawada"
+   ]
+  },
+  {
+   "name": "Design & Branding",
+   "anchor": "branding",
+   "icon": "pen",
+   "blurb": "Identities, print and digital design that make your business instantly recognisable.",
+   "services": [
+    "best-brand-identity-in-vijayawada",
+    "best-logo-design-in-vijayawada",
+    "best-package-design-in-vijayawada",
+    "best-graphic-design-in-vijayawada",
+    "best-infographics-in-vijayawada",
+    "best-brochure-design-in-vijayawada",
+    "best-social-media-pack-in-vijayawada",
+    "best-newsletter-design-in-vijayawada",
+    "best-web-banners-in-vijayawada",
+    "best-powerpoint-presentation-in-vijayawada",
+    "best-e-mail-template-in-vijayawada",
+    "best-brand-guidelines-in-vijayawada"
+   ]
+  },
+  {
+   "name": "Digital Marketing",
+   "anchor": "marketing",
+   "icon": "megaphone",
+   "blurb": "SEO, ads and social campaigns that bring paying customers to your door.",
+   "services": [
+    "best-local-search-seo-in-vijayawada",
+    "best-search-engine-marketing-in-vijayawada",
+    "best-google-adwords-in-vijayawada",
+    "best-social-media-optimization-in-vijayawada",
+    "best-search-engine-optimization-in-vijayawada",
+    "best-social-media-marketing-in-vijayawada",
+    "best-pay-per-click-management-in-vijayawada",
+    "best-online-reputation-management-in-vijayawada",
+    "best-conversion-rate-optimization-in-vijayawada",
+    "best-marketing-automation-in-vijayawada",
+    "best-display-advertising-in-vijayawada",
+    "best-whatsapp-automation-in-vijayawada"
+   ]
+  },
+  {
+   "name": "Mobile Applications",
+   "anchor": "apps",
+   "icon": "phone",
+   "blurb": "Android, iOS and cross-platform apps your customers will actually keep.",
+   "services": [
+    "best-android-app-development-in-vijayawada",
+    "best-ios-app-development-in-vijayawada",
+    "best-flutter-app-development-in-vijayawada",
+    "best-react-native-app-development-in-vijayawada",
+    "best-hybrid-app-development-in-vijayawada",
+    "best-progressive-web-apps-in-vijayawada"
+   ]
+  },
+  {
+   "name": "Content Writing Services",
+   "anchor": "content",
+   "icon": "doc",
+   "blurb": "Words that rank on Google and persuade the people who read them.",
+   "services": [
+    "best-article-writing-in-vijayawada",
+    "best-content-writing-in-vijayawada",
+    "best-email-marketing-services-in-vijayawada",
+    "best-content-marketing-services-in-vijayawada",
+    "best-product-descriptions-in-vijayawada",
+    "best-blog-writing-in-vijayawada",
+    "best-copywriting-in-vijayawada",
+    "best-social-media-content-in-vijayawada"
+   ]
+  },
+  {
+   "name": "AI & Automation",
+   "anchor": "automation",
+   "icon": "spark",
+   "blurb": "Chatbots, WhatsApp flows and CRM automation that follow up while you sleep.",
+   "services": [
+    "best-ai-chatbot-integration-in-vijayawada",
+    "best-whatsapp-business-automation-in-vijayawada",
+    "best-lead-follow-up-automation-in-vijayawada",
+    "best-appointment-reminders-in-vijayawada",
+    "best-order-confirmation-flows-in-vijayawada",
+    "best-crm-integration-in-vijayawada"
+   ]
+  }
+ ],
+ "services": {
+  "best-ai-chatbot-integration-in-vijayawada": {
+   "slug": "best-ai-chatbot-integration-in-vijayawada",
+   "category": "AI & Automation",
+   "title": "AI Chatbot Integration",
+   "tagline": "24/7 Customer Support That Never Sleeps — AI Chatbots Trained on Your Business",
+   "intro": "We build and integrate AI chatbots that handle customer queries, qualify leads, book appointments, and provide instant support — 24 hours a day, 7 days a week. Each chatbot is trained on your business data to deliver accurate, brand-consistent responses.",
+   "why": "We built an AI chatbot for Kensley Aesthetics that handles over 40% of patient queries automatically. We bring the same results-first approach to every chatbot we build — trained on your FAQs, services, and brand voice for responses that feel human.",
+   "deliverables": [
+    "Custom AI chatbot trained on your business data",
+    "Integration with your website, WhatsApp, or social media",
+    "Lead qualification and appointment booking flows",
+    "FAQ handling with accurate, brand-consistent responses",
+    "Handoff to human agents for complex queries",
+    "Analytics dashboard with conversation insights"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-android-app-development-in-vijayawada": {
+   "slug": "best-android-app-development-in-vijayawada",
+   "category": "Mobile Applications",
+   "title": "Android App Development",
+   "tagline": "80% of India Uses Android — Make Sure Your App Is There",
+   "intro": "We develop native Android applications using Kotlin and Java that deliver smooth performance, intuitive navigation, and seamless integration with device features. From concept and design to development, testing, and Play Store launch — we handle the entire process.",
+   "why": "We have built Android applications for healthcare providers, service businesses, and consumer brands. Our apps are built for performance, security, and scalability — tested across multiple Android versions and device configurations before launch.",
+   "deliverables": [
+    "Native Android development with Kotlin/Java",
+    "Material Design UI for consistent Android experience",
+    "Integration with device features — camera, GPS, notifications",
+    "API integration with your existing backend systems",
+    "Google Play Store submission and optimisation",
+    "Post-launch support and version updates"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-appointment-reminders-in-vijayawada": {
+   "slug": "best-appointment-reminders-in-vijayawada",
+   "category": "AI & Automation",
+   "title": "Appointment Reminders",
+   "tagline": "No-Shows Cost You Money — Automated Reminders Fix That",
+   "intro": "We set up automated appointment reminder systems via WhatsApp, SMS, and email that remind your patients or clients about upcoming appointments, allow easy rescheduling, and dramatically reduce no-show rates.",
+   "why": "We have implemented appointment reminder systems for hospitals, clinics, and service businesses. Our clients report 40-60% reduction in no-shows after implementing automated reminders — that's real revenue recovered.",
+   "deliverables": [
+    "Automated reminders via WhatsApp, SMS, and email",
+    "Configurable reminder timing — 24 hours, 2 hours, 30 minutes",
+    "Easy reschedule and cancellation links in messages",
+    "Calendar integration with your booking system",
+    "No-show tracking and reporting",
+    "Multi-language reminder messages"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-article-writing-in-vijayawada": {
+   "slug": "best-article-writing-in-vijayawada",
+   "category": "Content Writing Services",
+   "title": "Article Writing",
+   "tagline": "Content That Ranks, Reads, and Converts — Articles Written by People Who Know Your Industry",
+   "intro": "We write in-depth, SEO-optimised articles that position your brand as an authority in your industry. Every article is researched, structured for readability, and optimised for the keywords your audience is searching — driving organic traffic that compounds over time.",
+   "why": "our content team writes articles for healthcare, aesthetics, education, and technology brands. We don't just write — we research your industry, understand your audience, and create content that answers the questions your customers are actually asking.",
+   "deliverables": [
+    "In-depth research on your industry and topic",
+    "SEO-optimised structure with targeted keywords",
+    "Clear, engaging writing in your brand's voice",
+    "Internal linking strategy for site architecture",
+    "Meta titles and descriptions for each article",
+    "Regular content calendar for consistent publishing"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-blog-writing-in-vijayawada": {
+   "slug": "best-blog-writing-in-vijayawada",
+   "category": "Content Writing Services",
+   "title": "Blog Writing",
+   "tagline": "A Blog That Ranks Is a Business Asset — We Write Posts That Keep Delivering",
+   "intro": "We write blog posts that serve two purposes: ranking on Google for targeted keywords and establishing your brand as a trusted voice in your industry. Every post is researched, structured for SEO, and written in a voice that connects with your audience.",
+   "why": "We write blog content for businesses that use content as a long-term growth channel. We have written hundreds of blog posts for healthcare, aesthetics, education, and technology brands — each one designed to attract organic traffic and build authority.",
+   "deliverables": [
+    "SEO-targeted blog posts with keyword research",
+    "Long-form content for pillar pages and topic clusters",
+    "Clear, engaging writing in your brand's voice",
+    "Internal linking for improved site architecture",
+    "Featured snippet optimisation for position zero",
+    "Regular publishing schedule with content calendar"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-brand-guidelines-in-vijayawada": {
+   "slug": "best-brand-guidelines-in-vijayawada",
+   "category": "Design & Branding",
+   "title": "Brand Guidelines",
+   "tagline": "Consistency Builds Trust — Brand Guidelines That Keep Your Identity Intact",
+   "intro": "We create detailed brand guideline documents that define how your brand looks, sounds, and feels across every medium. Logo usage rules, colour specifications, typography scales, image style, tone of voice — everything your team and partners need to represent your brand correctly.",
+   "why": "We create brand guideline documents for businesses that need their brand applied consistently across teams, agencies, and markets. Our guidelines are practical and actionable — not just beautiful PDFs that nobody reads.",
+   "deliverables": [
+    "Logo usage rules with clear dos and don'ts",
+    "Colour palette with HEX, RGB, CMYK, and Pantone values",
+    "Typography system with font hierarchy and sizing",
+    "Image and photography style guidelines",
+    "Tone of voice and messaging framework",
+    "Application examples for digital and print"
+   ],
+   "related_work": [
+    "fillers-skin",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-brand-identity-in-vijayawada": {
+   "slug": "best-brand-identity-in-vijayawada",
+   "category": "Design & Branding",
+   "title": "Brand Identity",
+   "tagline": "A Logo Is a Mark. A Brand Is a Feeling. We Build Both — From the Ground Up",
+   "intro": "A logo is just a mark — a brand is the entire experience. We create complete brand identities including logo design, colour systems, typography, brand voice, and visual guidelines that make your business consistently recognisable across every touchpoint.",
+   "why": "Since 2008, we have crafted brand identities for hospitals, jewellers, schools, NGOs, and aesthetics clinics across five countries. From Anjaneya Jewellery's heritage-inspired identity to the premium positioning of Fillers Skin — every brand we build is designed to be remembered.",
+   "deliverables": [
+    "Brand strategy and positioning workshops",
+    "Logo design with multiple concept explorations",
+    "Complete colour palette and typography system",
+    "Brand voice and messaging guidelines",
+    "Visual identity across digital and print touchpoints",
+    "Brand guidelines document for consistent usage"
+   ],
+   "related_work": [
+    "fillers-skin",
+    "kensley-aesthetics",
+    "change-ngo"
+   ]
+  },
+  "best-brochure-design-in-vijayawada": {
+   "slug": "best-brochure-design-in-vijayawada",
+   "category": "Design & Branding",
+   "title": "Brochure Design",
+   "tagline": "A Brochure Is a Salesperson That Never Takes a Day Off — We Design the Best Ones",
+   "intro": "We design brochures that work as powerful sales tools — bi-fold, tri-fold, multi-page, and digital formats. Every brochure is crafted with compelling copy, professional imagery, and clean layouts that guide the reader from interest to action.",
+   "why": "We have designed brochures for hospitals, schools, real estate developers, and retail brands. We handle everything from copywriting and photography direction to layout design and print coordination — delivering brochures that your sales team actually wants to hand out.",
+   "deliverables": [
+    "Bi-fold, tri-fold, and multi-page brochure design",
+    "Compelling copy and content structure",
+    "Professional photography direction and image sourcing",
+    "Print-ready files with bleed and crop marks",
+    "Digital PDF versions for email and web sharing",
+    "Coordination with printers for quality output"
+   ],
+   "related_work": [
+    "st-pauls-school"
+   ]
+  },
+  "best-cms-website-design-in-vijayawada": {
+   "slug": "best-cms-website-design-in-vijayawada",
+   "category": "Web Design & Development",
+   "title": "CMS Website Design",
+   "tagline": "Update Your Website Yourself — No Developer Required, No Design Compromised",
+   "intro": "We build websites on WordPress, Strapi, and custom CMS platforms that let you update content, add pages, upload images, and manage your site without touching a line of code. Your team stays in control while we ensure the design stays beautiful.",
+   "why": "We have built hundreds of CMS-powered websites for businesses that need to update content regularly — hospitals with doctor listings, schools with event calendars, and retail brands with seasonal promotions. We train your team to manage the site confidently.",
+   "deliverables": [
+    "WordPress or custom CMS setup tailored to your needs",
+    "Intuitive admin panel — no technical knowledge required",
+    "Page builder for creating new pages without a developer",
+    "Media library for easy image and document management",
+    "Role-based access for team members and content editors",
+    "Training session and documentation for your team"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "st-pauls-school"
+   ]
+  },
+  "best-content-marketing-services-in-vijayawada": {
+   "slug": "best-content-marketing-services-in-vijayawada",
+   "category": "Content Writing Services",
+   "title": "Content Marketing Services",
+   "tagline": "Content That Builds Trust Before the Sales Call — Marketing That Earns Attention",
+   "intro": "We create and distribute valuable, relevant content that attracts your target audience, builds authority, and drives profitable customer action. From blog strategy and SEO content to video scripts and lead magnets — we build content systems that compound.",
+   "why": "We build content marketing strategies for businesses that understand the value of long-term brand building. We have built content systems for healthcare brands, aesthetics clinics, and e-commerce businesses that generate organic traffic and leads month after month.",
+   "deliverables": [
+    "Content strategy aligned with business goals and audience needs",
+    "Blog content calendar with SEO-targeted topics",
+    "Lead magnet creation — guides, checklists, ebooks",
+    "Content distribution across owned and earned channels",
+    "Performance tracking with traffic and lead attribution",
+    "Quarterly content audits and strategy refinement"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-content-writing-in-vijayawada": {
+   "slug": "best-content-writing-in-vijayawada",
+   "category": "Content Writing Services",
+   "title": "Content Writing",
+   "tagline": "Words That Work — Content Writing That Informs, Engages, and Converts",
+   "intro": "We write website content, service pages, about us pages, and landing page copy that communicates your brand's value clearly and persuasively. Every word is chosen to inform, engage, and convert — no filler, no jargon, just content that works.",
+   "why": "We write content for websites, service pages, and marketing materials across healthcare, aesthetics, education, and retail. Our writers understand SEO, conversion psychology, and brand voice — delivering content that serves both search engines and human readers.",
+   "deliverables": [
+    "Website content — homepage, about, services, and more",
+    "Service page content with clear value propositions",
+    "Landing page copy optimised for conversions",
+    "Brand voice development and tone consistency",
+    "SEO integration with natural keyword placement",
+    "Content editing and proofreading"
+   ],
+   "related_work": [
+    "threadlift",
+    "rma",
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-conversion-rate-optimization-in-vijayawada": {
+   "slug": "best-conversion-rate-optimization-in-vijayawada",
+   "category": "Digital Marketing",
+   "title": "Conversion Rate Optimization",
+   "tagline": "Your Traffic Is Fine — Your Conversion Rate Isn't. Let Us Fix That",
+   "intro": "We analyse your website's user behaviour, identify conversion bottlenecks, and implement data-driven improvements that increase the percentage of visitors who take action. More leads, more sales, more bookings — from the traffic you are already getting.",
+   "why": "We apply conversion rate optimisation to every website we build and manage. We use heatmaps, session recordings, A/B testing, and funnel analysis to identify exactly where visitors drop off — and fix it systematically.",
+   "deliverables": [
+    "Conversion audit with heatmap and session recording analysis",
+    "Funnel analysis to identify drop-off points",
+    "A/B testing of headlines, CTAs, forms, and layouts",
+    "Form optimisation to reduce abandonment",
+    "Page speed improvements for better engagement",
+    "Monthly conversion reports with actionable recommendations"
+   ],
+   "related_work": [
+    "threadlift",
+    "fillers-skin",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-copywriting-in-vijayawada": {
+   "slug": "best-copywriting-in-vijayawada",
+   "category": "Content Writing Services",
+   "title": "Copywriting",
+   "tagline": "Words Are the Cheapest and Most Powerful Marketing Tool — We Write the Ones That Work",
+   "intro": "We write copy that converts — ad headlines, landing page copy, email subject lines, CTAs, taglines, and brand messaging. Every word is chosen for impact, tested against alternatives, and refined until it delivers measurable results.",
+   "why": "We write conversion-focused copy for ads, landing pages, emails, and brand messaging. Our copywriting is grounded in direct response principles — clear value propositions, compelling hooks, and strong calls to action that move people from interest to action.",
+   "deliverables": [
+    "Ad copy for Google, Facebook, and Instagram campaigns",
+    "Landing page copy optimised for conversions",
+    "Email subject lines and campaign copy",
+    "Brand taglines and value proposition development",
+    "Website microcopy — buttons, forms, error messages",
+    "A/B copy variations for testing"
+   ],
+   "related_work": [
+    "threadlift",
+    "fillers-skin",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-corporate-website-in-vijayawada": {
+   "slug": "best-corporate-website-in-vijayawada",
+   "category": "Web Design & Development",
+   "title": "Corporate Website",
+   "tagline": "Your Business Deserves a Website That Commands Respect — We Build Exactly That",
+   "intro": "We design and develop corporate websites that communicate authority, build trust, and convert visitors into business leads. Every corporate site we build is structured around your business goals — from investor relations and team profiles to service showcases and contact flows. Clean code, fast loading, and optimised for search from day one.",
+   "why": "We have built corporate websites for hospitals, law firms, consulting agencies, and multi-location businesses since 2008. We understand that a corporate website is often the first impression — and we make sure it's the right one. Our sites are designed to reflect your brand's authority while making it effortless for visitors to take the next step.",
+   "deliverables": [
+    "Custom corporate design reflecting your brand identity and values",
+    "Professional team and leadership profile pages",
+    "Service and capability showcases with clear CTAs",
+    "Investor relations and media sections where needed",
+    "Mobile-responsive design that works across every device",
+    "SEO-ready architecture with clean, semantic code"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "st-pauls-school",
+    "change-ngo"
+   ]
+  },
+  "best-crm-integration-in-vijayawada": {
+   "slug": "best-crm-integration-in-vijayawada",
+   "category": "AI & Automation",
+   "title": "CRM Integration",
+   "tagline": "Every Lead in One Place — CRM Integration That Gives Your Sales Team Superpowers",
+   "intro": "We integrate CRM systems with your website, WhatsApp, email, and advertising platforms so every lead, enquiry, and customer interaction is captured in one place. Your sales team gets a complete view of every prospect — no more data silos.",
+   "why": "We set up and integrates CRM systems for businesses that need to track leads, manage pipelines, and automate follow-ups. We work with HubSpot, Zoho, Salesforce, and custom CRM platforms — connecting them to your website, WhatsApp, and advertising channels.",
+   "deliverables": [
+    "CRM setup and configuration for your sales process",
+    "Website form integration for automatic lead capture",
+    "WhatsApp and email integration for unified communication",
+    "Ad platform integration for lead source tracking",
+    "Pipeline setup with stages and automation rules",
+    "Team training and onboarding support"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-display-advertising-in-vijayawada": {
+   "slug": "best-display-advertising-in-vijayawada",
+   "category": "Digital Marketing",
+   "title": "Display Advertising",
+   "tagline": "Be Everywhere Your Customers Are — Display Advertising That Builds and Converts",
+   "intro": "We create and manage display advertising campaigns on Google Display Network that reach your target audience across millions of websites. From banner design and audience targeting to retargeting and performance optimisation — we make display ads work for your business.",
+   "why": "We run display advertising campaigns for brands that need visibility beyond search. We design compelling banner creatives, set up precise audience targeting, and optimise campaigns for the metrics that matter — impressions for awareness, clicks for consideration, conversions for revenue.",
+   "deliverables": [
+    "Google Display Network campaign setup and management",
+    "Banner design in all standard IAB sizes",
+    "Audience targeting by demographics, interests, and behaviour",
+    "Retargeting campaigns for website visitors",
+    "Placement optimisation and brand safety controls",
+    "Performance tracking with viewability and conversion metrics"
+   ],
+   "related_work": [
+    "threadlift",
+    "fillers-skin",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-e-commerce-website-in-vijayawada": {
+   "slug": "best-e-commerce-website-in-vijayawada",
+   "category": "Web Design & Development",
+   "title": "E-Commerce Website",
+   "tagline": "Stores That Sell While You Sleep — E-Commerce Built for Real Revenue",
+   "intro": "From product catalogues to checkout flows, payment gateways to inventory management — we build e-commerce websites on Shopify and WooCommerce that make buying simple, fast, and trustworthy. Every store is designed to reduce friction, increase average order value, and keep customers coming back.",
+   "why": "We have built online stores for jewellery houses, aesthetics clinics selling skincare, and retail brands going digital for the first time. From Anjaneya Jewellery's heritage catalogue to modern Shopify stores for UK clinics — our e-commerce sites are built to convert, not just display.",
+   "deliverables": [
+    "Shopify and WooCommerce store design and development",
+    "Product catalogue with filtering, search, and sorting",
+    "Secure checkout with UPI, cards, and COD integration",
+    "Inventory management with low-stock alerts",
+    "Order tracking and shipping integration",
+    "Mobile-first design optimised for thumb-friendly shopping"
+   ],
+   "related_work": [
+    "threadlift",
+    "fillers-skin"
+   ]
+  },
+  "best-e-mail-template-in-vijayawada": {
+   "slug": "best-e-mail-template-in-vijayawada",
+   "category": "Design & Branding",
+   "title": "E-Mail Template",
+   "tagline": "Emails That Look Perfect Everywhere — Templates Built for Every Inbox",
+   "intro": "We design and code custom email templates that work flawlessly across Gmail, Outlook, Apple Mail, Yahoo, and mobile clients. From transactional emails to promotional campaigns, every template is built with clean HTML tables, inline CSS, and thorough cross-client testing.",
+   "why": "We build email templates for e-commerce order confirmations, appointment reminders, promotional campaigns, and newsletters. We know the quirks of every email client and code around them — so your emails always render as designed.",
+   "deliverables": [
+    "Custom HTML email template design and coding",
+    "Responsive design for desktop and mobile rendering",
+    "Cross-client testing across 20+ email platforms",
+    "Integration with Mailchimp, SendGrid, or your ESP",
+    "Transactional email templates (confirmations, receipts, reminders)",
+    "Promotional campaign templates with editable sections"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-email-marketing-services-in-vijayawada": {
+   "slug": "best-email-marketing-services-in-vijayawada",
+   "category": "Content Writing Services",
+   "title": "Email Marketing Services",
+   "tagline": "The Highest ROI Channel in Marketing — Email Done Right",
+   "intro": "We plan, write, design, and send email marketing campaigns that generate measurable results. From welcome sequences and promotional campaigns to newsletters and abandoned cart recovery — we build email programs that keep your audience engaged and buying.",
+   "why": "We manage email marketing for e-commerce brands, clinics, and service businesses. We know what makes people open, click, and buy from emails — and we apply that knowledge to every campaign we send.",
+   "deliverables": [
+    "Email strategy and campaign planning",
+    "Copywriting for campaigns, sequences, and newsletters",
+    "Email template design and HTML coding",
+    "List segmentation and personalisation",
+    "A/B testing of subject lines, content, and send times",
+    "Performance analytics with open rate and conversion tracking"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-flutter-app-development-in-vijayawada": {
+   "slug": "best-flutter-app-development-in-vijayawada",
+   "category": "Mobile Applications",
+   "title": "Flutter App Development",
+   "tagline": "One Codebase. Two Platforms. Native Performance — Flutter Apps That Do It All",
+   "intro": "We build cross-platform mobile apps with Flutter — Google's UI toolkit that lets us deliver native-quality apps for both iOS and Android from a single codebase. Faster development, lower cost, and consistent experience across platforms.",
+   "why": "We use Flutter for clients who need apps on both iOS and Android without doubling their development budget. Flutter's hot reload and widget system let us iterate quickly and deliver polished apps in less time than traditional native development.",
+   "deliverables": [
+    "Single codebase for iOS and Android",
+    "Native-like performance with Flutter's rendering engine",
+    "Custom UI widgets for a unique, branded experience",
+    "Hot reload for rapid development and iteration",
+    "Firebase integration for authentication, database, and analytics",
+    "Play Store and App Store submission from the same project"
+   ],
+   "related_work": [
+    "meditron-cdc"
+   ]
+  },
+  "best-google-adwords-in-vijayawada": {
+   "slug": "best-google-adwords-in-vijayawada",
+   "category": "Digital Marketing",
+   "title": "Google Adwords",
+   "tagline": "Every Click Tracked, Every Rupee Accounted For — Google Ads That Pay for Themselves",
+   "intro": "We set up, manage, and optimise Google Ads campaigns across Search, Display, Shopping, and YouTube. Every campaign is built around your business goals — whether that's leads, sales, calls, or foot traffic. We track every conversion so you know exactly what your ads deliver.",
+   "why": "As a Google Certified Partner, we manage Google Ads campaigns for businesses spending from Rs 10,000 to Rs 10,00,000 per month. We have managed campaigns for aesthetics clinics, hospitals, jewellers, schools, and e-commerce brands — always with transparent reporting and measurable ROI.",
+   "deliverables": [
+    "Google Search, Display, and Shopping campaign setup",
+    "Keyword strategy with negative keyword management",
+    "Ad copywriting with extensions and sitelinks",
+    "Landing page recommendations for better Quality Score",
+    "Remarketing campaigns for warm audience re-engagement",
+    "Transparent monthly reports with spend and conversion data"
+   ],
+   "related_work": [
+    "threadlift",
+    "fillers-skin",
+    "prp-treatment",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-graphic-design-in-vijayawada": {
+   "slug": "best-graphic-design-in-vijayawada",
+   "category": "Design & Branding",
+   "title": "Graphic Design",
+   "tagline": "Design That Communicates, Not Just Decorates — Graphics That Get Results",
+   "intro": "From social media graphics and ad creatives to print collateral and presentation decks — we handle all your visual design needs. Our in-house design team delivers consistent, on-brand graphics that communicate your message clearly and professionally.",
+   "why": "our in-house design team has produced thousands of graphics for businesses across healthcare, retail, education, and aesthetics. We work fast, maintain brand consistency, and deliver files in every format you need.",
+   "deliverables": [
+    "Social media graphics and post designs",
+    "Ad creatives for Google Display and Meta",
+    "Print collateral — flyers, posters, banners",
+    "Presentation and pitch deck design",
+    "Event and exhibition graphics",
+    "Consistent brand application across all materials"
+   ],
+   "related_work": [
+    "kensley-aesthetics",
+    "change-ngo"
+   ]
+  },
+  "best-hybrid-app-development-in-vijayawada": {
+   "slug": "best-hybrid-app-development-in-vijayawada",
+   "category": "Mobile Applications",
+   "title": "Hybrid App Development",
+   "tagline": "One App, Every Platform — Hybrid Development for Maximum Reach at Minimum Cost",
+   "intro": "We build hybrid applications using Ionic and Capacitor that run on iOS, Android, and the web from a single codebase. Ideal for businesses that need cross-platform presence quickly and cost-effectively without sacrificing functionality.",
+   "why": "We build hybrid apps for businesses that need to reach users across multiple platforms without maintaining separate codebases. Our hybrid apps use web technologies wrapped in native containers — delivering app store presence and native features at a fraction of native development cost.",
+   "deliverables": [
+    "Single codebase for iOS, Android, and web",
+    "Access to native device features via plugins",
+    "Faster development timeline than native apps",
+    "Lower development and maintenance costs",
+    "App Store and Play Store distribution",
+    "Progressive enhancement for web deployment"
+   ],
+   "related_work": [
+    "meditron-cdc"
+   ]
+  },
+  "best-infographics-in-vijayawada": {
+   "slug": "best-infographics-in-vijayawada",
+   "category": "Design & Branding",
+   "title": "Infographics",
+   "tagline": "Turn Data Into Stories People Actually Want to Read — Infographics That Inform and Inspire",
+   "intro": "We design infographics that turn dense data, complex processes, and detailed information into clear, visually engaging graphics that people actually want to read and share. Perfect for reports, presentations, social media, and content marketing.",
+   "why": "We create infographics for healthcare organisations, educational institutions, and businesses that need to communicate complex information simply. Our infographics are designed for clarity first, beauty second — because an infographic that looks great but confuses the reader has failed.",
+   "deliverables": [
+    "Data visualisation with clear, accurate charts and graphs",
+    "Process and workflow infographics",
+    "Comparison and timeline infographics",
+    "Statistical infographics for reports and presentations",
+    "Social media-optimised formats for sharing",
+    "Print-ready versions for presentations and publications"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "change-ngo"
+   ]
+  },
+  "best-ios-app-development-in-vijayawada": {
+   "slug": "best-ios-app-development-in-vijayawada",
+   "category": "Mobile Applications",
+   "title": "iOS App Development",
+   "tagline": "iPhone Users Expect Premium — We Build iOS Apps That Deliver",
+   "intro": "We build native iOS applications using Swift that feel at home on iPhone and iPad. From user interface design following Apple's Human Interface Guidelines to Core Data, Push Notifications, and App Store submission — we deliver iOS apps that Apple approves and users love.",
+   "why": "We develop iOS applications for businesses that need a premium mobile presence on Apple devices. Our iOS apps follow Apple's design guidelines, pass App Store review requirements, and deliver the smooth, responsive experience iPhone users expect.",
+   "deliverables": [
+    "Native iOS development with Swift",
+    "UI design following Apple Human Interface Guidelines",
+    "Push notifications and background processing",
+    "Integration with Apple Pay, HealthKit, and other frameworks",
+    "App Store submission and approval support",
+    "Ongoing maintenance and iOS version compatibility updates"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-job-portal-website-in-vijayawada": {
+   "slug": "best-job-portal-website-in-vijayawada",
+   "category": "Web Design & Development",
+   "title": "Job Portal Website",
+   "tagline": "Connect the Right People to the Right Jobs — Job Portals Built for Scale",
+   "intro": "We design and develop job portal websites with advanced search, filtering, employer dashboards, candidate profiles, resume uploads, and application tracking. Whether you are building a niche job board or a regional recruitment platform, we deliver a scalable, user-friendly solution.",
+   "why": "We have built custom web applications and portals for businesses that need to manage complex workflows online. Our job portal solutions are designed for performance at scale — handling thousands of listings and applications without slowing down.",
+   "deliverables": [
+    "Employer and candidate registration with dashboards",
+    "Advanced job search with filters for location, industry, and experience",
+    "Resume upload and profile builder for candidates",
+    "Application tracking system for employers",
+    "Email notifications for new jobs and applications",
+    "Admin panel for managing listings, users, and payments"
+   ],
+   "related_work": [
+    "meditron-cdc"
+   ]
+  },
+  "best-landing-page-design-in-vijayawada": {
+   "slug": "best-landing-page-design-in-vijayawada",
+   "category": "Web Design & Development",
+   "title": "Landing Page Design",
+   "tagline": "One Page. One Goal. Maximum Conversions — Landing Pages That Actually Work",
+   "intro": "A landing page has one job — convert. We design focused, distraction-free landing pages that capture leads from your Google Ads, Facebook campaigns, and email marketing. Every element — headline, imagery, CTA, form — is placed with conversion psychology in mind.",
+   "why": "We have designed hundreds of landing pages for ad campaigns across healthcare, aesthetics, education, and retail. We know what works because we test everything — A/B tested headlines, optimised form fields, and CTA placement backed by real performance data.",
+   "deliverables": [
+    "Conversion-focused design with clear value proposition",
+    "A/B tested headlines and CTA placements",
+    "Mobile-optimised for ad traffic from all devices",
+    "Lead capture forms with CRM integration",
+    "Fast load times for better Quality Score on Google Ads",
+    "Tracking setup with Google Analytics and Meta Pixel"
+   ],
+   "related_work": [
+    "threadlift",
+    "prp-treatment",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-lead-follow-up-automation-in-vijayawada": {
+   "slug": "best-lead-follow-up-automation-in-vijayawada",
+   "category": "AI & Automation",
+   "title": "Lead Follow-up Automation",
+   "tagline": "Speed Wins Deals — Automated Follow-ups That Respond in Seconds, Not Hours",
+   "intro": "We build automated lead follow-up systems that respond to every enquiry within seconds, send personalised follow-up sequences, and nurture prospects until they are ready to buy. No more leads lost to slow response times or forgotten follow-ups.",
+   "why": "We have built lead follow-up automation for clinics, service businesses, and e-commerce brands. Studies show that responding within 5 minutes increases conversion by 100x — our systems respond in seconds.",
+   "deliverables": [
+    "Instant response to new leads via email, WhatsApp, or SMS",
+    "Multi-step follow-up sequences over days and weeks",
+    "Lead scoring based on engagement and behaviour",
+    "CRM integration for pipeline visibility",
+    "Personalised messages based on enquiry source and interest",
+    "Follow-up analytics with conversion tracking"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-local-search-seo-in-vijayawada": {
+   "slug": "best-local-search-seo-in-vijayawada",
+   "category": "Digital Marketing",
+   "title": "Local Search SEO",
+   "tagline": "When Your Neighbours Search, You Should Be First — Local SEO That Delivers",
+   "intro": "We optimise your business for local search so you appear in Google Maps, local pack results, and 'near me' searches. From Google Business Profile optimisation to local citations and reviews management, we make sure your business is the first one people find in your area.",
+   "why": "We have helped 2000+ businesses rank in local search results across India, the UK, and UAE. We built Meditron CDC's local SEO to rank for 40+ keywords across 7 cities. We know local SEO because we have done it at scale.",
+   "deliverables": [
+    "Google Business Profile setup and optimisation",
+    "Local citation building across directories and platforms",
+    "Review generation and reputation management strategy",
+    "Local keyword research and on-page optimisation",
+    "NAP consistency audit across all online listings",
+    "Monthly local ranking reports with competitor tracking"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-logo-design-in-vijayawada": {
+   "slug": "best-logo-design-in-vijayawada",
+   "category": "Design & Branding",
+   "title": "Logo Design",
+   "tagline": "The Best Logos Are the Simplest — We Design Marks That Last Decades",
+   "intro": "Your logo is the face of your brand. We design logos that are simple, memorable, versatile, and timeless. Every logo goes through multiple rounds of exploration — from initial concepts to final refinement — ensuring you get a mark that represents your business perfectly.",
+   "why": "We have designed logos for over 500 businesses since 2008 — from startups finding their identity to heritage brands modernising theirs. Our logos work at every scale: embroidered on uniforms, etched on jewellery, printed on billboards, and displayed on screens.",
+   "deliverables": [
+    "Multiple initial concept explorations",
+    "Typography-led, icon-led, or combination marks",
+    "Colour and monochrome versions",
+    "Scalable vector files for print and digital use",
+    "Brand mark variations for different contexts",
+    "Final delivery in AI, EPS, SVG, PNG, and PDF formats"
+   ],
+   "related_work": [
+    "threadlift",
+    "fillers-skin",
+    "change-ngo"
+   ]
+  },
+  "best-marketing-automation-in-vijayawada": {
+   "slug": "best-marketing-automation-in-vijayawada",
+   "category": "Digital Marketing",
+   "title": "Marketing Automation",
+   "tagline": "Set It Up Once, Sell Forever — Marketing Automation That Never Takes a Day Off",
+   "intro": "We set up marketing automation workflows that send the right message to the right person at the right time — automatically. From email drip campaigns and lead scoring to abandoned cart recovery and re-engagement sequences, we build systems that work while you sleep.",
+   "why": "We build marketing automation systems for businesses that want to scale their lead nurturing without scaling their team. We have set up automation for clinics, e-commerce brands, and service businesses — saving hours of manual follow-up every day.",
+   "deliverables": [
+    "Email drip campaigns for lead nurturing",
+    "Lead scoring and segmentation setup",
+    "Abandoned cart recovery sequences for e-commerce",
+    "Re-engagement campaigns for inactive subscribers",
+    "CRM integration for unified customer data",
+    "Workflow mapping and automation platform setup"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-matrimony-website-in-vijayawada": {
+   "slug": "best-matrimony-website-in-vijayawada",
+   "category": "Web Design & Development",
+   "title": "Matrimony Website",
+   "tagline": "Help People Find Their Perfect Match — Matrimony Platforms Built on Trust",
+   "intro": "We build matrimony websites with user registration, profile creation, partner search with detailed filters, horoscope matching, secure messaging, and subscription plans. Whether community-specific or open, our matrimony platforms are built for trust and usability.",
+   "why": "We have developed web applications that handle complex user interactions, profile management, and secure communications. Our matrimony platform solutions are designed with privacy, security, and user experience at the core — because trust is everything in this space.",
+   "deliverables": [
+    "User registration with detailed profile creation",
+    "Advanced partner search with community, education, and location filters",
+    "Horoscope and compatibility matching features",
+    "Secure in-platform messaging between verified profiles",
+    "Subscription and payment plan management",
+    "Admin dashboard for profile verification and moderation"
+   ],
+   "related_work": [
+    "meditron-cdc"
+   ]
+  },
+  "best-newsletter-design-in-vijayawada": {
+   "slug": "best-newsletter-design-in-vijayawada",
+   "category": "Design & Branding",
+   "title": "Newsletter Design",
+   "tagline": "Emails That Get Opened, Read, and Clicked — Newsletter Design That Performs",
+   "intro": "We design email newsletters that look professional across every email client — Gmail, Outlook, Apple Mail, and mobile. From layout and imagery to subject line strategy and CTA placement, we create newsletters that your subscribers actually want to open.",
+   "why": "We design email newsletters for businesses that use email as a core communication and marketing channel. We understand the technical constraints of email rendering and design within those limits to create newsletters that look great everywhere.",
+   "deliverables": [
+    "Custom newsletter template design",
+    "Responsive layouts for desktop and mobile email clients",
+    "Cross-client compatibility testing",
+    "CTA placement optimised for click-through",
+    "HTML email coding for Mailchimp, SendGrid, or custom platforms",
+    "Template library for recurring newsletter editions"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-next-js-development-in-vijayawada": {
+   "slug": "best-next-js-development-in-vijayawada",
+   "category": "Web Design & Development",
+   "title": "Next.js Development",
+   "tagline": "The Fastest Websites on the Internet Are Built with Next.js — We Build Them for You",
+   "intro": "We build high-performance websites and web applications with Next.js — React's production framework. Server-side rendering, static generation, API routes, and edge deployment — all resulting in websites that score 95+ on Lighthouse and rank higher on Google.",
+   "why": "We use Next.js for clients who demand the absolute best in performance, SEO, and scalability. This very website is built with Next.js. We combine React's component architecture with server-side rendering for websites that are blazing fast and developer-friendly.",
+   "deliverables": [
+    "Server-side rendering for instant page loads and better SEO",
+    "Static site generation for pages that load in milliseconds",
+    "React component architecture for maintainable, scalable code",
+    "API routes for backend functionality without a separate server",
+    "Image optimisation and lazy loading built in",
+    "Edge deployment for global performance"
+   ],
+   "related_work": [
+    "threadlift",
+    "rma",
+    "fillers-skin",
+    "botox",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-online-reputation-management-in-vijayawada": {
+   "slug": "best-online-reputation-management-in-vijayawada",
+   "category": "Digital Marketing",
+   "title": "Online Reputation Management",
+   "tagline": "Your Reputation Arrives Before You Do — Make Sure It Says the Right Things",
+   "intro": "We monitor, manage, and improve your online reputation across Google Reviews, social media, and industry directories. From review generation and response management to crisis communication and brand monitoring — we ensure your online presence reflects the quality of your business.",
+   "why": "We help businesses manage their online reputation proactively. We have helped hospitals respond to patient reviews professionally, helped clinics generate positive Google reviews systematically, and helped brands monitor mentions across the web.",
+   "deliverables": [
+    "Google Reviews monitoring and response management",
+    "Review generation strategy to increase positive reviews",
+    "Brand mention monitoring across social and web",
+    "Crisis communication planning and response",
+    "Directory listing management and cleanup",
+    "Monthly reputation scorecard and trend analysis"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-order-confirmation-flows-in-vijayawada": {
+   "slug": "best-order-confirmation-flows-in-vijayawada",
+   "category": "AI & Automation",
+   "title": "Order Confirmation Flows",
+   "tagline": "Keep Your Customers in the Loop — Order Updates That Build Trust Automatically",
+   "intro": "We set up automated order confirmation flows that keep your customers informed at every stage — order received, payment confirmed, shipped, out for delivery, and delivered. Every message builds trust and reduces support queries.",
+   "why": "We build order notification systems for e-commerce brands and service businesses. Automated order updates reduce support tickets by up to 50% while improving customer satisfaction and repeat purchase rates.",
+   "deliverables": [
+    "Order confirmation messages via email and WhatsApp",
+    "Payment receipt and invoice generation",
+    "Shipping notification with tracking links",
+    "Delivery confirmation and feedback request",
+    "Return and exchange instruction flows",
+    "Integration with Shopify, WooCommerce, or custom platforms"
+   ],
+   "related_work": [
+    "fillers-skin"
+   ]
+  },
+  "best-package-design-in-vijayawada": {
+   "slug": "best-package-design-in-vijayawada",
+   "category": "Design & Branding",
+   "title": "Package Design",
+   "tagline": "The Package Is the First Product Your Customer Holds — Make It Unforgettable",
+   "intro": "Great packaging sells before the product does. We design product packaging that catches the eye on the shelf, communicates value at a glance, and creates an unboxing experience customers want to share. From concept to print-ready artwork, we handle every detail.",
+   "why": "We design packaging for food brands, cosmetics, jewellery, and consumer products. We understand the science behind shelf impact — colour psychology, typography hierarchy, and material choices that make your product the one customers reach for.",
+   "deliverables": [
+    "Packaging concept development and ideation",
+    "Structural design for boxes, pouches, bottles, and labels",
+    "Print-ready artwork with die-cut templates",
+    "Material and finish recommendations",
+    "Mockups for presentation and approval",
+    "Coordination with printers for production quality"
+   ],
+   "related_work": [
+    "fillers-skin"
+   ]
+  },
+  "best-pay-per-click-management-in-vijayawada": {
+   "slug": "best-pay-per-click-management-in-vijayawada",
+   "category": "Digital Marketing",
+   "title": "Pay Per Click Management",
+   "tagline": "Stop Wasting Ad Spend — PPC Management That Delivers Real Returns",
+   "intro": "We manage pay-per-click campaigns across Google, Facebook, and Instagram with a laser focus on ROI. Every click is tracked, every keyword is monitored, and every ad is optimised to deliver the highest possible return on your advertising spend.",
+   "why": "We manage PPC campaigns for businesses that need measurable results from their advertising. As a Google Certified Partner, we bring platform expertise, data-driven optimisation, and transparent reporting to every campaign we manage.",
+   "deliverables": [
+    "Campaign setup across Google Ads and Meta Ads",
+    "Keyword and audience targeting strategy",
+    "Ad creative development and A/B testing",
+    "Bid management and budget allocation",
+    "Conversion tracking and attribution setup",
+    "Weekly optimisation and monthly ROI reports"
+   ],
+   "related_work": [
+    "threadlift",
+    "fillers-skin",
+    "prp-treatment",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-powerpoint-presentation-in-vijayawada": {
+   "slug": "best-powerpoint-presentation-in-vijayawada",
+   "category": "Design & Branding",
+   "title": "Powerpoint Presentation",
+   "tagline": "Your Ideas Deserve a Better Slide — Presentations That Win Rooms",
+   "intro": "We design professional PowerPoint and Google Slides presentations that make your content shine. From investor pitch decks and sales presentations to conference talks and internal reports — we create decks that communicate with clarity and visual authority.",
+   "why": "We have designed presentations for startups pitching investors, hospitals presenting to boards, and sales teams closing enterprise deals. We turn complex information into clear, compelling visual narratives that keep audiences engaged.",
+   "deliverables": [
+    "Custom slide design matching your brand identity",
+    "Data visualisation with clear charts and diagrams",
+    "Investor pitch deck structure and storytelling",
+    "Master template with reusable slide layouts",
+    "Speaker notes and presentation flow guidance",
+    "Delivery in PowerPoint, Google Slides, and PDF formats"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "change-ngo"
+   ]
+  },
+  "best-product-descriptions-in-vijayawada": {
+   "slug": "best-product-descriptions-in-vijayawada",
+   "category": "Content Writing Services",
+   "title": "Product Descriptions",
+   "tagline": "A Great Product Deserves a Great Description — Words That Sell",
+   "intro": "We write product descriptions that do more than list features — they communicate value, create desire, and drive purchases. Every description is written with your target customer in mind, optimised for search, and structured for scannability.",
+   "why": "We write product descriptions for e-commerce stores, catalogues, and marketplaces. We have written hundreds of product descriptions for jewellery, skincare, medical devices, and consumer products — each one crafted to convert browsers into buyers.",
+   "deliverables": [
+    "Benefit-led product descriptions that sell",
+    "SEO-optimised with targeted product keywords",
+    "Consistent brand voice across all products",
+    "Structured for scannability with bullet points and highlights",
+    "Bulk writing for large product catalogues",
+    "Category and collection page content"
+   ],
+   "related_work": [
+    "fillers-skin"
+   ]
+  },
+  "best-progressive-web-apps-in-vijayawada": {
+   "slug": "best-progressive-web-apps-in-vijayawada",
+   "category": "Mobile Applications",
+   "title": "Progressive Web Apps",
+   "tagline": "The Future of Apps Is Already Here — PWAs That Load Instantly and Work Everywhere",
+   "intro": "We build Progressive Web Apps (PWAs) that combine the best of websites and native apps. Installable on the home screen, working offline, sending push notifications, and loading instantly — all without requiring an app store download.",
+   "why": "We build PWAs for businesses that want app-like experiences without the friction of app store downloads. Our PWAs are built with service workers, web app manifests, and modern JavaScript — delivering native-like performance from the browser.",
+   "deliverables": [
+    "Installable on home screen without app store",
+    "Offline functionality with service worker caching",
+    "Push notifications for re-engagement",
+    "Instant loading with app shell architecture",
+    "Automatic updates without user intervention",
+    "Works across all modern browsers and devices"
+   ],
+   "related_work": [
+    "threadlift",
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-react-native-app-development-in-vijayawada": {
+   "slug": "best-react-native-app-development-in-vijayawada",
+   "category": "Mobile Applications",
+   "title": "React Native App Development",
+   "tagline": "The React You Know, Now on Mobile — Apps That Feel Native Because They Are",
+   "intro": "We develop mobile apps with React Native that share code between iOS and Android while delivering native performance. Our React Native apps use platform-specific components where it matters, ensuring your app feels right at home on both operating systems.",
+   "why": "We use React Native for clients who already have React-based web applications and want to extend their platform to mobile. Code sharing between web and mobile means faster development, easier maintenance, and a unified technology stack.",
+   "deliverables": [
+    "Shared codebase for iOS and Android development",
+    "Native components for platform-specific feel",
+    "Code sharing with React web applications",
+    "Over-the-air updates without App Store resubmission",
+    "Third-party library ecosystem for rapid feature development",
+    "Testing and deployment pipeline setup"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-real-estate-website-portal-in-vijayawada": {
+   "slug": "best-real-estate-website-portal-in-vijayawada",
+   "category": "Web Design & Development",
+   "title": "Real Estate Website & Portal",
+   "tagline": "Every Property Deserves to Be Found — Real Estate Portals That Drive Enquiries",
+   "intro": "We build real estate websites and portals with property listings, advanced search filters, map integration, virtual tours, and enquiry forms. Whether you are a developer, broker, or aggregator, we build platforms that help buyers find properties and help you capture leads.",
+   "why": "We have built property listing platforms and real estate websites for developers and brokers who need to showcase properties professionally online. Our solutions include map integration, search filters, and lead management tools that turn visitors into site visits.",
+   "deliverables": [
+    "Property listing pages with galleries, floor plans, and specifications",
+    "Advanced search with filters for location, price, type, and size",
+    "Google Maps integration with property location markers",
+    "Lead capture forms with automated email notifications",
+    "Agent/builder profile pages with contact details",
+    "Admin panel for managing properties and enquiries"
+   ],
+   "related_work": [
+    "meditron-cdc"
+   ]
+  },
+  "best-redesigning-website-in-vijayawada": {
+   "slug": "best-redesigning-website-in-vijayawada",
+   "category": "Web Design & Development",
+   "title": "Redesigning Website",
+   "tagline": "Your Website Is Costing You Customers — Let Us Fix That with a Modern Redesign",
+   "intro": "If your website looks like it was built five years ago, it probably costs you customers every day. We redesign existing websites with modern layouts, faster performance, mobile responsiveness, and conversion-focused user flows — all while preserving your SEO equity and existing content.",
+   "why": "We have redesigned hundreds of websites for businesses that outgrew their original design. We audit your current site, identify what's working and what's not, and rebuild it with modern technology, better UX, and measurable performance improvements.",
+   "deliverables": [
+    "Full audit of your current website's design, speed, and SEO",
+    "Modern, responsive redesign that reflects your current brand",
+    "Content migration with SEO redirects to preserve rankings",
+    "Speed optimisation for faster load times and better Core Web Vitals",
+    "Conversion flow improvements based on user behaviour analysis",
+    "Post-launch support and performance monitoring"
+   ],
+   "related_work": [
+    "st-pauls-school",
+    "change-ngo"
+   ]
+  },
+  "best-responsive-web-design-in-vijayawada": {
+   "slug": "best-responsive-web-design-in-vijayawada",
+   "category": "Web Design & Development",
+   "title": "Responsive Web Design",
+   "tagline": "Every Screen. Every Device. One Perfect Experience — Responsive Design Done Right",
+   "intro": "Over 70% of your visitors are on mobile. We design websites that adapt fluidly to every screen size — from 4-inch phones to 32-inch monitors. No pinching, no scrolling sideways, no broken layouts. Just seamless experiences that convert regardless of device.",
+   "why": "Since 2008, we have been building responsive websites long before it became a standard. Every site we deliver is tested across 20+ device configurations and optimised for Core Web Vitals. Our responsive designs don't just resize — they reorganise content for the best possible experience on each device.",
+   "deliverables": [
+    "Fluid layouts that adapt to any screen size",
+    "Touch-friendly navigation and interactions for mobile",
+    "Optimised images that load fast on slower connections",
+    "Cross-browser testing on Chrome, Safari, Firefox, and Edge",
+    "Core Web Vitals optimised for Google ranking signals",
+    "Retina-ready graphics and crisp typography on all displays"
+   ],
+   "related_work": [
+    "threadlift",
+    "rma",
+    "meditron-cdc",
+    "botox"
+   ]
+  },
+  "best-search-engine-marketing-in-vijayawada": {
+   "slug": "best-search-engine-marketing-in-vijayawada",
+   "category": "Digital Marketing",
+   "title": "Search Engine Marketing",
+   "tagline": "Skip the Queue — Get to the Top of Google Today with Paid Search",
+   "intro": "We run search engine marketing campaigns on Google that target high-intent keywords your customers are actively searching. From campaign setup and keyword bidding to ad copy testing and conversion tracking, we manage every aspect of your paid search to maximise ROI.",
+   "why": "We are a Google Certified Partner managing paid search campaigns for clinics, e-commerce brands, and service businesses. We don't just set up ads — we continuously optimise bids, test ad copies, and refine targeting to squeeze maximum value from every rupee.",
+   "deliverables": [
+    "Google Search Ads targeting high-intent buyer keywords",
+    "Keyword research and competitive analysis",
+    "Ad copy writing with A/B testing",
+    "Bid management and budget optimisation",
+    "Conversion tracking with Google Analytics setup",
+    "Monthly performance reports with ROI analysis"
+   ],
+   "related_work": [
+    "threadlift",
+    "prp-treatment",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-search-engine-optimization-in-vijayawada": {
+   "slug": "best-search-engine-optimization-in-vijayawada",
+   "category": "Digital Marketing",
+   "title": "Search Engine Optimization",
+   "tagline": "Dominate Google Search Results — We Make Sure Your Customers Find You First",
+   "intro": "We optimise your website to appear at the top of Google search results for the keywords your customers are actually searching. From technical SEO and on-page optimisation to content strategy and link building, we build a system that delivers compounding organic traffic.",
+   "why": "With 17+ years of experience, we have helped over 2000 businesses rank on the first page of Google. We built Meditron CDC's website to rank for 40+ keywords on Google's first page. We know what works — because we have done it hundreds of times.",
+   "deliverables": [
+    "Comprehensive keyword research for your industry",
+    "On-page SEO with optimised titles, meta tags, and headers",
+    "Technical SEO audit — site speed, crawlability, indexing",
+    "Content strategy aligned with search intent",
+    "Quality backlink building and outreach",
+    "Monthly ranking reports with competitor analysis"
+   ],
+   "related_work": [
+    "threadlift",
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-shopify-store-design-in-vijayawada": {
+   "slug": "best-shopify-store-design-in-vijayawada",
+   "category": "Web Design & Development",
+   "title": "Shopify Store Design",
+   "tagline": "Launch Your Shopify Store — Designed to Sell, Built to Scale",
+   "intro": "We design and set up Shopify stores that look premium, load fast, and convert visitors into customers. From theme customisation and product catalogue setup to payment gateway integration and shipping configuration — we handle everything so you can start selling.",
+   "why": "We have set up Shopify stores for brands in India, the UK, and UAE. We know Shopify inside out — from Liquid theme development to app integrations, payment setups, and conversion optimisation. Our stores are designed to sell, not just display.",
+   "deliverables": [
+    "Custom Shopify theme design or premium theme customisation",
+    "Product catalogue setup with variants, collections, and tags",
+    "Payment gateway integration — Razorpay, Stripe, PayPal",
+    "Shipping rate configuration and courier integration",
+    "SEO setup with optimised titles, descriptions, and URLs",
+    "Staff training on Shopify admin and order management"
+   ],
+   "related_work": [
+    "threadlift",
+    "fillers-skin"
+   ]
+  },
+  "best-social-media-content-in-vijayawada": {
+   "slug": "best-social-media-content-in-vijayawada",
+   "category": "Content Writing Services",
+   "title": "Social Media Content",
+   "tagline": "Content That Stops the Scroll and Starts the Conversation",
+   "intro": "We create social media content that stops the scroll — compelling captions, Reel scripts, carousel copy, story text, and hashtag strategies. Every piece of content is crafted for the specific platform and audience, designed to drive engagement and build your community.",
+   "why": "We create social media content for brands that want to build an engaged following. We write captions that spark conversations, scripts for Reels that get shared, and carousel content that educates and converts — all in your brand's unique voice.",
+   "deliverables": [
+    "Platform-specific captions for Instagram, Facebook, LinkedIn",
+    "Reel and video scripts with hook-first structure",
+    "Carousel and slide content for educational posts",
+    "Hashtag research and strategy per post",
+    "Content calendar with themed weeks and campaigns",
+    "Community engagement responses and comment management"
+   ],
+   "related_work": [
+    "kensley-aesthetics",
+    "change-ngo"
+   ]
+  },
+  "best-social-media-marketing-in-vijayawada": {
+   "slug": "best-social-media-marketing-in-vijayawada",
+   "category": "Digital Marketing",
+   "title": "Social Media Marketing",
+   "tagline": "Build a Brand People Follow, Trust, and Buy From — Social Media Done Right",
+   "intro": "We create and execute social media marketing strategies that build brand awareness, drive engagement, and generate leads. From content creation and community management to paid social campaigns and influencer partnerships — we handle everything.",
+   "why": "We manage social media marketing for brands across India, the UK, and UAE. We have grown clinic Instagram accounts from zero to thousands of engaged followers, and generated measurable leads through strategic social media campaigns.",
+   "deliverables": [
+    "Custom social media strategy aligned with business goals",
+    "Content creation — posts, stories, Reels, and carousels",
+    "Community management and audience engagement",
+    "Paid social campaigns on Facebook and Instagram",
+    "Influencer identification and partnership management",
+    "Monthly analytics and performance reports"
+   ],
+   "related_work": [
+    "kensley-aesthetics",
+    "dr-matla",
+    "change-ngo"
+   ]
+  },
+  "best-social-media-optimization-in-vijayawada": {
+   "slug": "best-social-media-optimization-in-vijayawada",
+   "category": "Digital Marketing",
+   "title": "Social Media Optimization",
+   "tagline": "Your Social Media Should Work as Hard as You Do — We Make Sure It Does",
+   "intro": "We optimise your social media presence across Instagram, Facebook, LinkedIn, and YouTube — from profile setup and bio optimisation to hashtag strategy and content scheduling. The goal: more visibility, more followers, and more engagement from the right audience.",
+   "why": "We manage social media optimisation for brands across healthcare, aesthetics, education, and retail. We go beyond posting — we optimise every element of your social presence for discoverability, engagement, and conversion.",
+   "deliverables": [
+    "Profile optimisation across all social platforms",
+    "Bio and description writing with keyword integration",
+    "Hashtag research and strategy for discoverability",
+    "Content calendar planning and scheduling",
+    "Engagement tactics to grow followers organically",
+    "Analytics setup and monthly performance tracking"
+   ],
+   "related_work": [
+    "kensley-aesthetics",
+    "change-ngo"
+   ]
+  },
+  "best-social-media-pack-in-vijayawada": {
+   "slug": "best-social-media-pack-in-vijayawada",
+   "category": "Design & Branding",
+   "title": "Social Media Pack",
+   "tagline": "Look Professional on Every Platform — Social Media Packs That Keep Your Brand Consistent",
+   "intro": "We create comprehensive social media design packs — branded templates for posts, stories, carousels, covers, and highlights. Your team gets a library of on-brand templates they can customise and post, ensuring your social media always looks professional and consistent.",
+   "why": "We create social media design systems for brands that post regularly and need to maintain visual consistency. Our packs include templates for every format — Instagram posts, stories, LinkedIn banners, Facebook covers — all designed in your brand's visual language.",
+   "deliverables": [
+    "Branded templates for posts, stories, and carousels",
+    "Platform-specific sizes for Instagram, Facebook, LinkedIn",
+    "Cover image designs for all social media profiles",
+    "Highlight cover icons for Instagram",
+    "Editable Canva or Figma templates for your team",
+    "Brand consistency guidelines for social media"
+   ],
+   "related_work": [
+    "kensley-aesthetics",
+    "change-ngo"
+   ]
+  },
+  "best-web-banners-in-vijayawada": {
+   "slug": "best-web-banners-in-vijayawada",
+   "category": "Design & Branding",
+   "title": "Web Banners",
+   "tagline": "Banners That Stop the Scroll and Start the Click — Display Ads That Convert",
+   "intro": "We design web banners for Google Display Network, social media ads, website headers, and promotional campaigns. Every banner is designed for maximum visual impact within the constraints of the format — clear messaging, compelling imagery, and strong CTAs.",
+   "why": "We design web banners and display ad creatives for businesses running Google Display, Facebook, and Instagram ad campaigns. We create banner sets in all standard IAB sizes, optimised for file size and visual impact.",
+   "deliverables": [
+    "Google Display Network banner sets in all IAB sizes",
+    "Social media ad creatives for Meta and LinkedIn",
+    "Animated and static banner options",
+    "A/B test variations for performance optimisation",
+    "Website hero banners and promotional headers",
+    "Retina-ready exports for high-density displays"
+   ],
+   "related_work": [
+    "threadlift",
+    "fillers-skin",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-website-maintenance-in-vijayawada": {
+   "slug": "best-website-maintenance-in-vijayawada",
+   "category": "Web Design & Development",
+   "title": "Website Maintenance",
+   "tagline": "Your Website Runs 24/7 — Make Sure Someone Is Looking After It",
+   "intro": "Websites need regular care — security updates, plugin patches, content updates, performance monitoring, and backup management. Our maintenance plans keep your website running smoothly so you can focus on your business, not your server.",
+   "why": "We provide ongoing website maintenance for businesses across India, the UK, and UAE. We monitor uptime, apply security patches, update plugins, fix bugs, and handle content changes — so your website is always fast, secure, and current.",
+   "deliverables": [
+    "Regular security updates and vulnerability patches",
+    "Daily backups with quick restore capability",
+    "Uptime monitoring with instant downtime alerts",
+    "Content updates — text, images, pages — as needed",
+    "Performance monitoring and speed optimisation",
+    "Monthly maintenance reports with actionable recommendations"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "st-pauls-school"
+   ]
+  },
+  "best-whatsapp-automation-in-vijayawada": {
+   "slug": "best-whatsapp-automation-in-vijayawada",
+   "category": "Digital Marketing",
+   "title": "WhatsApp Automation",
+   "tagline": "Never Miss a Message, Never Lose a Lead — WhatsApp Automation That Works Round the Clock",
+   "intro": "We set up WhatsApp Business API automation for your business — automated responses, appointment reminders, order confirmations, lead follow-ups, and broadcast messages. Every message is timed, personalised, and designed to move your customer closer to a purchase.",
+   "why": "We have set up WhatsApp automation for clinics, hospitals, and service businesses that handle hundreds of enquiries daily. Our automated systems respond instantly, send appointment reminders, and follow up on leads — saving hours of manual work every day.",
+   "deliverables": [
+    "WhatsApp Business API setup and verification",
+    "Automated welcome messages and quick replies",
+    "Appointment reminder and confirmation flows",
+    "Order confirmation and delivery update messages",
+    "Lead follow-up sequences with personalised messaging",
+    "Broadcast messaging for promotions and announcements"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-whatsapp-business-automation-in-vijayawada": {
+   "slug": "best-whatsapp-business-automation-in-vijayawada",
+   "category": "AI & Automation",
+   "title": "WhatsApp Business Automation",
+   "tagline": "Your WhatsApp Should Work as Hard as Your Best Salesperson — Automation Makes It Happen",
+   "intro": "We set up WhatsApp Business API with automated message flows — instant responses, appointment reminders, order confirmations, lead follow-ups, and broadcast campaigns. Your WhatsApp becomes a sales and support channel that runs itself.",
+   "why": "We have automated WhatsApp for clinics handling 200+ daily enquiries, restaurants processing orders, and service businesses following up on leads. Our WhatsApp automation saves hours every day and ensures no enquiry falls through the cracks.",
+   "deliverables": [
+    "WhatsApp Business API setup and verification",
+    "Automated welcome and quick reply messages",
+    "Appointment booking and reminder workflows",
+    "Order confirmation and shipping update flows",
+    "Lead nurture sequences with timed follow-ups",
+    "Broadcast messaging for offers and announcements"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "kensley-aesthetics"
+   ]
+  },
+  "best-wordpress-development-in-vijayawada": {
+   "slug": "best-wordpress-development-in-vijayawada",
+   "category": "Web Design & Development",
+   "title": "WordPress Development",
+   "tagline": "WordPress Without the Bloat — Custom-Built, Fast, and Easy to Manage",
+   "intro": "We build custom WordPress websites from scratch — no pre-made templates, no bloated page builders. Every theme is hand-coded for speed, security, and maintainability. You get a WordPress site that loads fast, ranks well, and lets you manage content effortlessly through the admin panel.",
+   "why": "We have been building WordPress websites since 2008. We have built everything from simple business sites to complex multi-language portals. Our approach: custom theme development, minimal plugins, clean code, and a CMS setup your team can actually use.",
+   "deliverables": [
+    "Custom WordPress theme development — no templates",
+    "Clean, lightweight code for fast load times",
+    "Advanced Custom Fields for flexible content management",
+    "WooCommerce integration for e-commerce functionality",
+    "Security hardening and performance optimisation",
+    "SEO-ready with schema markup and clean URL structure"
+   ],
+   "related_work": [
+    "meditron-cdc",
+    "st-pauls-school",
+    "change-ngo"
+   ]
+  }
+ },
+ "work_order": [
+  "threadlift",
+  "rma",
+  "meditron-cdc",
+  "fillers-skin",
+  "prp-treatment",
+  "aptos-uk",
+  "botox",
+  "buttock-lift",
+  "kensley-aesthetics",
+  "dr-matla",
+  "st-pauls-school",
+  "change-ngo",
+  "jago-andhra",
+  "jobyatra-india",
+  "aayush-hospitals",
+  "kpetz",
+  "mitra-hospitals"
+ ],
+ "work": {
+  "aayush-hospitals": {
+   "slug": "aayush-hospitals",
+   "category": "Healthcare · Multi-Speciality",
+   "year": "2025",
+   "name": "Aayush Hospitals",
+   "tagline": "Where compassion meets advanced care.",
+   "live": "https://www.aayushhospitals.com",
+   "stats": [
+    [
+     "25+",
+     "Departments listed"
+    ],
+    [
+     "Vijayawada & Eluru",
+     "Multi-location"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "Aayush Hospitals is a leading multi-speciality healthcare network in Vijayawada and Eluru, delivering advanced medical expertise across departments. We designed a comprehensive website that helps patients find doctors, book appointments, and access health resources seamlessly.",
+   "challenge": "A multi-location hospital network needs to serve diverse patient needs — from emergency cases to routine consultations — while maintaining a unified brand experience across locations. The website had to make finding the right doctor and booking an appointment effortless.",
+   "did": [
+    {
+     "title": "Department-first navigation",
+     "text": "Every speciality has a dedicated section with doctor profiles, facilities, and services — so patients land exactly where they need."
+    },
+    {
+     "title": "Multi-location support",
+     "text": "Location-specific pages for Vijayawada and Eluru with relevant doctors, facilities, and contact information."
+    },
+    {
+     "title": "Appointment booking",
+     "text": "A streamlined booking flow integrated with the hospital's scheduling system for quick, friction-free appointments."
+    },
+    {
+     "title": "Health resources",
+     "text": "Patient education content and facility galleries that build confidence before the first visit."
+    }
+   ],
+   "outcome": "The website became the primary digital touchpoint for Aayush Hospitals, driving a significant increase in online appointment bookings and reducing reception call volume for basic enquiries.",
+   "services": [
+    "Website Design",
+    "Development",
+    "SEO",
+    "Content Strategy"
+   ],
+   "shot": "aayush-hospitals.webp",
+   "color": "#2fa6d8",
+   "filter": "Healthcare"
+  },
+  "aptos-uk": {
+   "slug": "aptos-uk",
+   "category": "Aesthetics · Thread Lifting",
+   "year": "2025",
+   "name": "Aptos UK",
+   "tagline": "Lift. Define. Rejuvenate.",
+   "live": "https://aptosuk.com",
+   "stats": [
+    [
+     "95+",
+     "Performance score"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "Optimised",
+     "Enquiry flow"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "Aptos UK is an advanced non-surgical facial lifting practice using Aptos Excellence technology. We designed a bold, confident website that educates patients on thread lifting and drives high-quality consultation bookings.",
+   "challenge": "Aptos thread lifting is a premium, specialist treatment that most patients have never heard of. The website needed to educate, build confidence in the technology, and position the practice as the UK authority — all while competing against more established brand names.",
+   "did": [
+    {
+     "title": "Bold dark design",
+     "text": "A deep navy and gold colour palette that communicates authority and precision — standing apart from the soft pastels of most aesthetics websites."
+    },
+    {
+     "title": "Technology showcase",
+     "text": "Dedicated sections explaining Aptos Excellence technology with visual treatment area mapping — brow, mid-face, jawline — so patients understand exactly what's possible."
+    },
+    {
+     "title": "Before/after results",
+     "text": "A curated gallery with real patient outcomes — the most powerful trust signal in aesthetics."
+    },
+    {
+     "title": "Conversion architecture",
+     "text": "Strategic CTAs and a streamlined consultation booking flow placed at every decision point in the patient journey."
+    }
+   ],
+   "outcome": "The website established Aptos UK as a leading authority for thread lifting in the UK, driving consistent consultation bookings from high-intent organic search traffic.",
+   "services": [
+    "Website Design",
+    "Development",
+    "Brand Identity",
+    "SEO",
+    "Content Strategy"
+   ],
+   "shot": "",
+   "color": "#2fa6d8",
+   "filter": "Aesthetics"
+  },
+  "botox": {
+   "slug": "botox",
+   "category": "Aesthetics · Anti-wrinkle",
+   "year": "2025",
+   "name": "Botox Newcastle",
+   "tagline": "Refined. Natural. Timeless.",
+   "live": "https://botoxuk.com",
+   "stats": [
+    [
+     "97+",
+     "Performance score"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "+75%",
+     "Consultation bookings"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "Botox Newcastle is a doctor-led Botox practice in Jesmond, Newcastle — specialising in bespoke anti-wrinkle treatments that soften forehead lines, frown lines, and crow's feet while preserving natural expression. We built a clean, editorial website that reflects the precision of the service.",
+   "challenge": "The Botox market is saturated with cheap, high-volume clinics. The challenge was positioning this practice as the premium, doctor-led alternative — communicating that the difference between good Botox and great Botox is the person administering it.",
+   "did": [
+    {
+     "title": "Clean editorial design",
+     "text": "A warm, minimal aesthetic with confident serif typography and generous whitespace — letting the quality speak for itself."
+    },
+    {
+     "title": "Doctor-led positioning",
+     "text": "The doctor's profile, credentials, and approach featured prominently — because in Botox, the practitioner is the product."
+    },
+    {
+     "title": "Treatment clarity",
+     "text": "Dedicated pages for each treatment area (forehead, frown, crow's feet, jawline) with clear pricing, expected results, and aftercare information."
+    },
+    {
+     "title": "Frictionless booking",
+     "text": "A simple, elegant booking flow that matches the premium feel of the practice."
+    }
+   ],
+   "outcome": "The website positioned Botox Newcastle as Jesmond's premium choice for anti-wrinkle treatments, attracting patients who valued expertise and natural results over discounted prices.",
+   "services": [
+    "Website Design",
+    "Development",
+    "Brand Identity",
+    "SEO"
+   ],
+   "shot": "",
+   "color": "#e07a5f",
+   "filter": "Aesthetics"
+  },
+  "buttock-lift": {
+   "slug": "buttock-lift",
+   "category": "Aesthetics · Body Contouring",
+   "year": "2025",
+   "name": "Buttock Lift",
+   "tagline": "Lift. Shape. Confidence.",
+   "live": "https://buttocklift.uk",
+   "stats": [
+    [
+     "96+",
+     "Performance score"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "+65%",
+     "Consultation bookings"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "Buttock Lift is a doctor-led non-surgical buttock enhancement practice in Jesmond, Newcastle — using collagen-stimulating Lanluma and HYAcorp body fillers for subtle, natural results. We designed a warm, confident website that builds trust and drives consultation bookings.",
+   "challenge": "Non-surgical buttock enhancement is a treatment many patients are curious about but hesitant to pursue. The website needed to normalise the conversation, communicate safety and expertise, and make patients feel comfortable enough to book — without ever feeling clinical or intimidating.",
+   "did": [
+    {
+     "title": "Warm, confident design",
+     "text": "A light, airy aesthetic with soft golds and clean typography — approachable and premium without feeling medical."
+    },
+    {
+     "title": "Treatment education",
+     "text": "Clear explanations of Lanluma and HYAcorp procedures, expected results, recovery timelines, and FAQs — answering every question a hesitant patient might have."
+    },
+    {
+     "title": "Doctor-led trust",
+     "text": "Practitioner credentials and approach featured prominently — because for this treatment, trust in the person matters more than anything."
+    },
+    {
+     "title": "Multi-channel booking",
+     "text": "Consultation booking via form and WhatsApp — meeting patients wherever they're most comfortable."
+    }
+   ],
+   "outcome": "The website became the primary source of new patient enquiries, with consultation bookings growing steadily as the site ranked for key body contouring search terms in the Newcastle area.",
+   "services": [
+    "Website Design",
+    "Development",
+    "Brand Identity",
+    "SEO"
+   ],
+   "shot": "",
+   "color": "#1fa37a",
+   "filter": "Aesthetics"
+  },
+  "change-ngo": {
+   "slug": "change-ngo",
+   "category": "Non-Profit · Social Impact",
+   "year": "2024",
+   "name": "Change NGO",
+   "tagline": "A small step change lots of lives — brightening a child's day, one act of kindness at a time.",
+   "live": "https://changengo.org",
+   "stats": [
+    [
+     "+150%",
+     "Online donations"
+    ],
+    [
+     "+90%",
+     "Volunteer sign-ups"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "Change NGO is an award-winning non-profit organisation dedicated to children's welfare and community development. We designed a bold, emotionally compelling website that drives donations, showcases impact, and recruits volunteers — turning visitors into active supporters.",
+   "challenge": "Non-profit websites often fail at one critical thing: making it easy to give. Change NGO needed a website that told their story powerfully, showed real impact with transparency, and made donating as frictionless as possible — all while working on modest hosting budgets.",
+   "did": [
+    {
+     "title": "Emotional storytelling",
+     "text": "Bold black-and-white photography with selective gold accents — creating an editorial, documentary feel that commands attention."
+    },
+    {
+     "title": "Impact transparency",
+     "text": "Projects, causes, and sponsors sections with clear descriptions of where funds go — building donor confidence."
+    },
+    {
+     "title": "Donation flow",
+     "text": "A prominent 'Donate Now' CTA on every page with a streamlined payment flow — reducing the gap between emotion and action."
+    },
+    {
+     "title": "Volunteer & sponsor sections",
+     "text": "Dedicated pages for corporates and individuals to get involved — expanding the supporter base beyond one-time donors."
+    }
+   ],
+   "outcome": "The website significantly increased online donations and volunteer sign-ups, and became the go-to reference for sponsors evaluating the organisation's credibility and reach.",
+   "services": [
+    "Website Design",
+    "Development",
+    "Brand Identity",
+    "Content Strategy"
+   ],
+   "shot": "",
+   "color": "#65b41f",
+   "filter": "Non-Profit"
+  },
+  "dr-matla": {
+   "slug": "dr-matla",
+   "category": "Aesthetics · Medical Clinic",
+   "year": "2025",
+   "name": "Dr Matla Aesthetics",
+   "tagline": "Feel confident in expert hands — Newcastle's leading aesthetics clinic.",
+   "live": "https://drmatla.co.uk",
+   "stats": [
+    [
+     "94+",
+     "Performance score"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "Optimised",
+     "Enquiry flow"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "Dr Matla Aesthetics is an advanced cosmetic practice in Newcastle led by Dr Matla (MBBS, MRCGP, DFSRH) — offering medical and aesthetic treatments rooted in genuine clinical expertise. We built a bold, dark-themed website that commands authority and drives online bookings.",
+   "challenge": "Newcastle has dozens of aesthetics clinics. Dr Matla needed a website that made his medical credentials the centrepiece — positioning him not as another beautician, but as a qualified doctor patients could trust with their face and body.",
+   "did": [
+    {
+     "title": "Dark, cinematic design",
+     "text": "A moody, high-contrast visual language that immediately sets Dr Matla apart from the pastel aesthetics market."
+    },
+    {
+     "title": "Credential-led positioning",
+     "text": "Medical qualifications, professional memberships, and clinical experience featured above the fold — trust first, services second."
+    },
+    {
+     "title": "Online booking",
+     "text": "A streamlined book-online flow integrated directly into the hero and every treatment page."
+    },
+    {
+     "title": "Treatment education",
+     "text": "Clear, jargon-free descriptions of each procedure with expected outcomes and recovery timelines."
+    }
+   ],
+   "outcome": "The website became the primary driver of new patient consultations, with Dr Matla's Google ranking improving for key aesthetic treatment searches across Newcastle.",
+   "services": [
+    "Website Design",
+    "Development",
+    "Brand Identity",
+    "SEO"
+   ],
+   "shot": "",
+   "color": "#f2a900",
+   "filter": "Aesthetics"
+  },
+  "fillers-skin": {
+   "slug": "fillers-skin",
+   "category": "Aesthetics · Dermal Fillers",
+   "year": "2025",
+   "name": "Fillers Skin",
+   "tagline": "The art of refined presence.",
+   "live": "https://fillers.skin",
+   "stats": [
+    [
+     "97+",
+     "Performance score"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "+85%",
+     "Consultation requests"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "Fillers Skin is a private aesthetics practice for clients who know the difference — bespoke filler treatments delivered with surgical precision and absolute discretion. We created a luxury editorial website that mirrors the exclusivity of the service.",
+   "challenge": "This wasn't a volume clinic — it was a private, premium practice. The website had to feel exclusive without being inaccessible, and communicate expertise without resorting to clinical jargon. Every design decision had to reinforce the message: this is not for everyone, and that's the point.",
+   "did": [
+    {
+     "title": "Editorial luxury design",
+     "text": "A restrained, high-fashion aesthetic with serif typography, generous whitespace, and a muted warm palette — positioning the brand above the noise of mainstream aesthetics."
+    },
+    {
+     "title": "Treatment storytelling",
+     "text": "Each treatment page reads like a consultation — explaining the approach, the results, and the experience in language that feels personal, not transactional."
+    },
+    {
+     "title": "Results & trust",
+     "text": "A curated results gallery and practitioner credentials — building confidence without overselling."
+    },
+    {
+     "title": "Private consultation flow",
+     "text": "A discreet enquiry form designed for high-net-worth clients who expect privacy at every touchpoint."
+    }
+   ],
+   "outcome": "The website elevated the brand's positioning and became the primary channel for new client acquisition — attracting higher-value consultations from clients who valued discretion and quality.",
+   "services": [
+    "Website Design",
+    "Brand Identity",
+    "Development",
+    "Content Strategy"
+   ],
+   "shot": "",
+   "color": "#8b6cf0",
+   "filter": "Aesthetics"
+  },
+  "jago-andhra": {
+   "slug": "jago-andhra",
+   "category": "Public Awareness · Movement",
+   "year": "2026",
+   "name": "Jaago Andhra",
+   "tagline": "Awake… Speak up…",
+   "live": "https://jagoandhra.com",
+   "stats": [
+    [
+     "2026",
+     "Platform launch"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "Statewide",
+     "Event coverage"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "Jago Andhra is a public awareness platform powering the movement for a Constitutional Andhra Pradesh — rallying citizens to awake, speak up, and demand change through events, round table conferences, and grassroots mobilisation.",
+   "challenge": "Building a credible digital presence for a civic movement requires trust, speed, and reach. The platform needed to inform, mobilise, and engage citizens across Andhra Pradesh — delivering flash news, event updates, and demands in a format that drives action, not just awareness.",
+   "did": [
+    {
+     "title": "News-driven architecture",
+     "text": "A flash news ticker, event listings, and document galleries keep visitors informed in real time."
+    },
+    {
+     "title": "Movement identity",
+     "text": "Bold branding with the Andhra Pradesh map motif and tri-colour accents to reinforce regional pride and purpose."
+    },
+    {
+     "title": "Event mobilisation",
+     "text": "Dedicated pages for round table conferences, demands, and gallery — making it easy for supporters to stay engaged."
+    },
+    {
+     "title": "Mobile-first responsive design",
+     "text": "Optimised for the majority audience accessing the platform on mobile devices across the state."
+    }
+   ],
+   "outcome": "Jago Andhra established a strong digital presence for the constitutional movement, driving awareness and participation in round table conferences and public events across Andhra Pradesh.",
+   "services": [
+    "Web Platform",
+    "Development",
+    "Brand Identity",
+    "SEO"
+   ],
+   "shot": "jago-andhra.webp",
+   "color": "#8b6cf0",
+   "filter": "Public Awareness"
+  },
+  "jobyatra-india": {
+   "slug": "jobyatra-india",
+   "category": "Recruitment · Job Portal",
+   "year": "2025",
+   "name": "Jobyatra India",
+   "tagline": "Your journey to success begins here.",
+   "live": "https://jobyatraindia.com",
+   "stats": [
+    [
+     "20,000+",
+     "Registrations per event"
+    ],
+    [
+     "Yes",
+     "Pan-India reach"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "Jobyatra India is a flagship online job mela platform connecting job seekers with recruiters across India. We built a scalable web platform that powers hiring campaigns, profile screening, and interview scheduling — making recruitment accessible at scale.",
+   "challenge": "Online job portals are dominated by giants like Naukri and Indeed. Jobyatra needed a platform that offered something different — large-scale virtual job melas where thousands of candidates and hundreds of recruiters connect in a structured, time-bound hiring event.",
+   "did": [
+    {
+     "title": "Event-driven architecture",
+     "text": "Built around scheduled job melas with registration, profile creation, and recruiter matching — not just a static job board."
+    },
+    {
+     "title": "Candidate experience",
+     "text": "A simple registration flow with profile screening and interview movement tracking — so candidates always know where they stand."
+    },
+    {
+     "title": "Recruiter dashboard",
+     "text": "Tools for recruiters to post openings, filter candidates, and schedule interviews during mela windows."
+    },
+    {
+     "title": "Scale-ready",
+     "text": "Designed to handle 20,000+ registrations per event with reliable performance under load."
+    }
+   ],
+   "outcome": "Jobyatra successfully conducted multiple national-level online job melas, with thousands of candidates registered and placed across industries.",
+   "services": [
+    "Web Platform",
+    "Development",
+    "UX Design",
+    "SEO"
+   ],
+   "shot": "",
+   "color": "#f40f6c",
+   "filter": "Recruitment"
+  },
+  "kensley-aesthetics": {
+   "slug": "kensley-aesthetics",
+   "category": "Aesthetics · Medical Clinic",
+   "year": "2025",
+   "name": "Kensley Aesthetics",
+   "tagline": "Natural-looking results by experienced medical professionals.",
+   "live": "https://kensleyaesthetics.co.uk",
+   "stats": [
+    [
+     "95+",
+     "Performance score"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "+80%",
+     "Consultation bookings"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "Kensley Aesthetics is a consultation-led aesthetics clinic founded by Dr. Vini Matla, offering over 25 years of medical experience. We designed a warm, editorial website that balances clinical credibility with approachable luxury — driving consultations from patients who value expertise.",
+   "challenge": "Kensley needed to stand apart in a crowded UK aesthetics market. The website had to communicate decades of medical experience without feeling sterile, and attract patients who wanted natural results — not the overdone look they associated with high-street clinics.",
+   "did": [
+    {
+     "title": "Editorial warmth",
+     "text": "A navy and gold palette with refined serif typography — communicating heritage and medical authority while remaining inviting."
+    },
+    {
+     "title": "AI chat integration",
+     "text": "A built-in chatbot that answers treatment questions instantly — reducing bounce and qualifying leads before they even book."
+    },
+    {
+     "title": "Treatment depth",
+     "text": "Dedicated pages for surgical and non-surgical treatments with honest explanations of results, recovery, and suitability."
+    },
+    {
+     "title": "Trust architecture",
+     "text": "Dr. Matla's credentials, patient testimonials, and before/after results woven throughout every page."
+    }
+   ],
+   "outcome": "The website positioned Kensley as the trusted, experience-led choice in the region — consultation bookings increased significantly and the AI chatbot handled over 40% of initial patient queries.",
+   "services": [
+    "Website Design",
+    "Development",
+    "Brand Identity",
+    "SEO",
+    "AI Chatbot"
+   ],
+   "shot": "",
+   "color": "#c4148f",
+   "filter": "Aesthetics"
+  },
+  "kpetz": {
+   "slug": "kpetz",
+   "category": "Pet Care · Veterinary",
+   "year": "2025",
+   "name": "K-Petz",
+   "tagline": "We love, care, treat your pets.",
+   "live": "https://www.kpetz.com",
+   "stats": [
+    [
+     "5+",
+     "Services listed"
+    ],
+    [
+     "Yes",
+     "Online booking"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "K-Petz is a trainer-run pet hospital and store in Vijayawada offering veterinary services, grooming, training, boarding, and adoption support. We built a warm, trust-driven website that helps pet owners find the right care for their companions.",
+   "challenge": "Pet owners are emotionally invested — they need to trust a clinic before they walk in. K-Petz needed a website that felt caring and professional, showcased their range of services, and made booking consultations and grooming appointments simple.",
+   "did": [
+    {
+     "title": "Warm, approachable design",
+     "text": "A friendly visual language with soft colours and real imagery — making pet owners feel their pets are in safe hands."
+    },
+    {
+     "title": "Service clarity",
+     "text": "Dedicated pages for veterinary care, grooming, training, boarding, and adoption — each with clear descriptions and booking options."
+    },
+    {
+     "title": "Online consultancy",
+     "text": "A built-in online consultation feature for quick veterinary advice without visiting the clinic."
+    },
+    {
+     "title": "Review integration",
+     "text": "Customer reviews and ratings prominently displayed to build social proof and trust."
+    }
+   ],
+   "outcome": "The website established K-Petz as Vijayawada's go-to pet care destination, with online bookings for grooming and consultations growing steadily since launch.",
+   "services": [
+    "Website Design",
+    "Development",
+    "Brand Identity",
+    "SEO"
+   ],
+   "shot": "",
+   "color": "#e07a5f",
+   "filter": "Pet Care"
+  },
+  "meditron-cdc": {
+   "slug": "meditron-cdc",
+   "category": "Healthcare · Paediatric Therapy",
+   "year": "2025",
+   "name": "Meditron CDC",
+   "tagline": "Helping parents find the right care for their child — starting with the first search.",
+   "live": "https://meditroncdc.com",
+   "stats": [
+    [
+     "170+",
+     "Pages built"
+    ],
+    [
+     "40+ keywords",
+     "Google first page"
+    ],
+    [
+     "+90% in 4 months",
+     "Online bookings"
+    ],
+    [
+     "95 / 100",
+     "Mobile score"
+    ]
+   ],
+   "overview": "Meditron Child Development Centre is a specialist paediatric therapy centre offering speech therapy, occupational therapy, physiotherapy, and child psychology services across multiple cities in Andhra Pradesh. We built a comprehensive, SEO-driven website that helps anxious parents find the right care quickly.",
+   "challenge": "Parents searching for child therapy services are often anxious, overwhelmed, and unsure where to start. The website needed to be informative without being clinical, reassuring without being patronising, and optimised for dozens of local search queries across multiple cities and therapy types.",
+   "did": [
+    {
+     "title": "Content architecture",
+     "text": "We mapped every therapy type and condition to dedicated pages — each written in plain language that parents can understand, not medical jargon."
+    },
+    {
+     "title": "Local SEO at scale",
+     "text": "We built city-specific landing pages for every therapy and condition across 7 locations — creating 90+ pages targeting hyper-local search queries like 'speech therapy Vijayawada' and 'autism treatment Guntur'."
+    },
+    {
+     "title": "Trust building",
+     "text": "Parent testimonials, therapist profiles with credentials, a detailed FAQ section, and a dedicated 'For Parents' guide — all designed to reduce anxiety and build confidence before the first appointment."
+    },
+    {
+     "title": "Booking flow",
+     "text": "A simple, mobile-first appointment booking system that lets parents choose location, therapy type, and preferred time — minimising the barrier between search and action."
+    }
+   ],
+   "outcome": "Meditron CDC's website now ranks on the first page of Google for dozens of therapy-related searches across Andhra Pradesh. Online appointment bookings became the primary source of new patient intake, and the 'For Parents' guide became a widely shared resource in local parent communities.",
+   "services": [
+    "Website Design",
+    "Development",
+    "SEO",
+    "Content Strategy",
+    "Local SEO"
+   ],
+   "shot": "",
+   "color": "#65b41f",
+   "filter": "Healthcare"
+  },
+  "mitra-hospitals": {
+   "slug": "mitra-hospitals",
+   "category": "Healthcare · Multi-Speciality",
+   "year": "2025",
+   "name": "Mitra Hospitals",
+   "tagline": "Empowering health. Inspiring recovery.",
+   "live": "https://www.mithrahospitals.com",
+   "stats": [
+    [
+     "10+",
+     "Specialists listed"
+    ],
+    [
+     "8+",
+     "Departments"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "Mitra Multi Speciality Hospital provides comprehensive healthcare services with experienced consultants across orthopaedics, urology, paediatrics, and more. We designed a professional website that showcases their medical expertise and drives patient appointments.",
+   "challenge": "Patients choosing a hospital want to know two things: are the doctors qualified, and can I book easily? Mitra needed a website that put their specialist doctors front and centre while making the path from search to appointment as short as possible.",
+   "did": [
+    {
+     "title": "Doctor-led design",
+     "text": "Specialist profiles with qualifications, experience, and department information prominently featured — because patients choose doctors, not hospitals."
+    },
+    {
+     "title": "Service architecture",
+     "text": "Clear department pages covering facilities, treatments, and conditions — helping patients find the right specialist quickly."
+    },
+    {
+     "title": "Appointment booking",
+     "text": "A direct booking flow with department and doctor selection — minimising the steps between intent and action."
+    },
+    {
+     "title": "Trust signals",
+     "text": "Gallery showcasing modern facilities and equipment — building confidence in the hospital's capabilities."
+    }
+   ],
+   "outcome": "The website improved Mitra's digital visibility and became a consistent source of new patient appointments, particularly for specialist consultations.",
+   "services": [
+    "Website Design",
+    "Development",
+    "SEO"
+   ],
+   "shot": "",
+   "color": "#1fa37a",
+   "filter": "Healthcare"
+  },
+  "prp-treatment": {
+   "slug": "prp-treatment",
+   "category": "Aesthetics · Skin Rejuvenation",
+   "year": "2025",
+   "name": "PRP Treatment",
+   "tagline": "Restore radiant skin — from the inside out.",
+   "live": "https://prp.skin",
+   "stats": [
+    [
+     "96+",
+     "Performance score"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "+60%",
+     "Consultation bookings"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "PRP Treatment is a specialist skin rejuvenation practice using platelet-rich plasma therapy to resurface, tighten, and illuminate skin at a cellular level. We built a dark, premium website that communicates the science and the results with equal confidence.",
+   "challenge": "PRP is a treatment that sounds clinical and unfamiliar to most patients. The challenge was making the science accessible and the results desirable — turning a complex medical procedure into something patients actively seek out.",
+   "did": [
+    {
+     "title": "Dark premium aesthetic",
+     "text": "A rich, dark design language with gold accents — positioning PRP as a luxury treatment, not a clinical procedure."
+    },
+    {
+     "title": "Science made simple",
+     "text": "Treatment pages that explain the PRP process in clear, human language — with visual diagrams and step-by-step breakdowns."
+    },
+    {
+     "title": "Results-driven",
+     "text": "Before/after imagery and patient stories that make the outcome tangible and desirable."
+    },
+    {
+     "title": "Consultation booking",
+     "text": "A warm, inviting booking flow that reduces anxiety and encourages first-time patients to take the next step."
+    }
+   ],
+   "outcome": "The website transformed PRP from an unfamiliar treatment into a sought-after service, with consultation requests growing steadily from organic search and referrals.",
+   "services": [
+    "Website Design",
+    "Development",
+    "Brand Identity",
+    "SEO"
+   ],
+   "shot": "",
+   "color": "#f40f6c",
+   "filter": "Aesthetics"
+  },
+  "rma": {
+   "slug": "rma",
+   "category": "Aesthetics · Medical Clinic",
+   "year": "2025",
+   "name": "Rugby Medical Aesthetics",
+   "tagline": "Medically led aesthetics delivered with clinical precision and a subtle, personalised approach.",
+   "live": "https://rugbymedicalaesthetics.co.uk",
+   "stats": [
+    [
+     "95+",
+     "Performance score"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "Optimised",
+     "Enquiry flow"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "Rugby Medical Aesthetics is a medically led aesthetic and skin treatment clinic in Rugby, Warwickshire. We built a website that reflects their clinical precision, personalised consultations, and commitment to natural-looking results.",
+   "challenge": "Medical aesthetics sits at the intersection of healthcare and beauty — the website needed to feel clinical enough to communicate safety and expertise, but warm enough that patients didn't feel like they were visiting a hospital. Balancing professionalism with approachability was the key challenge.",
+   "did": [
+    {
+     "title": "Dual-tone design",
+     "text": "A sage green and warm gold palette that bridges medical authority with welcoming approachability — instantly differentiating from competitors."
+    },
+    {
+     "title": "Service clarity",
+     "text": "Clear treatment pages covering medical, aesthetic, and pricing information — so patients know exactly what to expect before they enquire."
+    },
+    {
+     "title": "Trust signals",
+     "text": "Practitioner credentials, professional certifications, and patient testimonials positioned throughout the journey."
+    },
+    {
+     "title": "Booking integration",
+     "text": "A streamlined booking flow that lets patients choose treatment type and preferred time — minimising friction between interest and action."
+    }
+   ],
+   "outcome": "The new website positioned RMA as the premium choice in Rugby for medically led aesthetics, driving a measurable increase in consultation bookings and reducing phone enquiries for basic information.",
+   "services": [
+    "Website Design",
+    "Development",
+    "Brand Identity",
+    "SEO"
+   ],
+   "shot": "rugby-medical-aesthetics.webp",
+   "color": "#007de2",
+   "filter": "Aesthetics"
+  },
+  "st-pauls-school": {
+   "slug": "st-pauls-school",
+   "category": "Education · School",
+   "year": "2024",
+   "name": "St. Paul's School",
+   "tagline": "Wisdom is the principle knowledge — nurturing minds since inception.",
+   "live": "https://stpaulsvijayawada.com",
+   "stats": [
+    [
+     "8+",
+     "Sections built"
+    ],
+    [
+     "Yes",
+     "Admissions online"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "St. Paul's English Medium School is a well-established school in Vijayawada offering quality education from primary through secondary levels. We designed a clean, informative website that serves parents, students, and staff — with admissions, academics, campus life, and exam information all in one place.",
+   "challenge": "School websites are notoriously cluttered — buried PDFs, outdated notices, and confusing navigation. St. Paul's needed a website that parents could navigate effortlessly, that showcased the campus and values, and that made the admissions process simple and transparent.",
+   "did": [
+    {
+     "title": "Parent-first navigation",
+     "text": "Clear menu structure — Admissions, Academics, Campus, Examinations, Gallery — so parents find what they need in one click."
+    },
+    {
+     "title": "Campus showcase",
+     "text": "A rich photo gallery highlighting facilities, events, and student life — giving prospective parents a virtual tour."
+    },
+    {
+     "title": "Admissions flow",
+     "text": "A step-by-step admissions guide with downloadable forms and key dates — reducing the number of phone calls the office receives."
+    },
+    {
+     "title": "News & events",
+     "text": "A regularly updated section for announcements, exam schedules, and school events — keeping the website relevant and visited."
+    }
+   ],
+   "outcome": "The website modernised St. Paul's digital presence, with admissions enquiries through the website increasing and parents citing the site as a key factor in choosing the school.",
+   "services": [
+    "Website Design",
+    "Development",
+    "Content Strategy"
+   ],
+   "shot": "",
+   "color": "#007de2",
+   "filter": "Education"
+  },
+  "threadlift": {
+   "slug": "threadlift",
+   "category": "Aesthetics · Thread Treatments",
+   "year": "2025",
+   "name": "Thread Lift",
+   "tagline": "Redefine your contours. Reveal your confidence.",
+   "live": "https://threadlift.uk",
+   "stats": [
+    [
+     "96+",
+     "Performance score"
+    ],
+    [
+     "Yes",
+     "Mobile-first"
+    ],
+    [
+     "+70%",
+     "Consultation bookings"
+    ],
+    [
+     "Live",
+     "Status"
+    ]
+   ],
+   "overview": "Thread Lift is a specialist aesthetics clinic offering expert thread lift treatments for natural-looking, refined results. We designed and built a premium website that communicates clinical expertise, builds instant trust, and drives consultation bookings.",
+   "challenge": "Thread lift treatments are a high-consideration purchase — patients need to feel absolute confidence in the practitioner before they commit. The website had to communicate expertise, showcase real results, and make booking effortless — all while competing against dozens of clinics in the same space.",
+   "did": [
+    {
+     "title": "Premium positioning",
+     "text": "A luxury editorial design language with warm golds and clean whites — signalling quality and refinement from the first scroll."
+    },
+    {
+     "title": "Treatment education",
+     "text": "Dedicated pages for each thread lift type with clear explanations, expected results, and FAQs — turning anxious browsers into informed, confident leads."
+    },
+    {
+     "title": "Results gallery",
+     "text": "Before/after imagery and patient testimonials structured to build trust at every stage of the decision journey."
+    },
+    {
+     "title": "Conversion flow",
+     "text": "A frictionless consultation booking system with minimal form fields — reducing drop-off and maximising enquiries."
+    }
+   ],
+   "outcome": "The website became the clinic's primary source of new patient enquiries, with consultation bookings increasing significantly within the first quarter of launch.",
+   "services": [
+    "Website Design",
+    "Brand Identity",
+    "Development",
+    "SEO",
+    "Content Strategy"
+   ],
+   "shot": "",
+   "color": "#f2a900",
+   "filter": "Aesthetics"
+  }
+ },
+ "blog_order": [
+  "why-your-business-needs-a-brand-not-just-a-logo",
+  "5-signs-your-website-is-costing-you-customers",
+  "whatsapp-automation-the-secret-weapon-for-local-businesses",
+  "seo-vs-paid-ads-whats-right-for-your-business",
+  "how-to-measure-if-your-digital-marketing-is-working",
+  "the-real-cost-of-a-badly-designed-website"
+ ],
+ "blog": {
+  "5-signs-your-website-is-costing-you-customers": {
+   "slug": "5-signs-your-website-is-costing-you-customers",
+   "category": "Digital",
+   "date": "Jul 2026",
+   "read": "5 min read",
+   "title": "5 Signs Your Website Is Costing You Customers",
+   "excerpt": "Most business owners don’t realise their website is quietly turning people away. Here are the five most common culprits — and how to fix them.",
+   "body": [
+    "Your website is not a brochure. It is your best salesperson — working 24 hours a day, 7 days a week. But if it is poorly built, it is not selling. It is actively turning people away. Here are five signs your website is costing you customers.",
+    "1. It takes more than 3 seconds to load. Research consistently shows that 53% of mobile visitors leave a page that takes longer than 3 seconds to load. Every second of delay costs you real customers. If your website is slow, you are bleeding money — and you probably don’t even know it.",
+    "2. It doesn’t work properly on mobile. More than 70% of Indian internet users browse on their phones. If your website is not mobile-first — if buttons are too small, text is unreadable, or layouts break on smaller screens — you are invisible to the majority of your potential customers.",
+    "3. There is no clear call to action. Visitors land on your homepage and then… what? If there is no clear next step — no prominent button, no contact form, no booking flow — people will leave. Every page on your website should guide the visitor toward a single, clear action.",
+    "4. The design looks outdated. Fair or not, people judge your business by how your website looks. An outdated design signals an outdated business. If your website looks like it was built in 2015, visitors will assume your service is stuck there too.",
+    "5. You can’t find it on Google. The most beautiful website in the world is useless if nobody can find it. If your website is not showing up for the searches your customers are making, you have an SEO problem — and it is costing you every single day.",
+    "The good news? Every one of these problems is fixable. At Web Design in Vijayawada, we audit websites for exactly these issues and rebuild them to convert — fast, mobile-first, and optimised for the searches that matter to your business."
+   ]
+  },
+  "how-to-measure-if-your-digital-marketing-is-working": {
+   "slug": "how-to-measure-if-your-digital-marketing-is-working",
+   "category": "Analytics",
+   "date": "Jun 2026",
+   "read": "5 min read",
+   "title": "How to Measure If Your Digital Marketing Is Working",
+   "excerpt": "Likes and visits don’t pay the bills. Here’s what to actually track to know if your marketing spend is earning its keep.",
+   "body": [
+    "You are spending money on digital marketing. Your agency sends you a report every month with impressive numbers — impressions, clicks, reach, engagement rate. But here is the question nobody asks often enough: is any of this actually making you money?",
+    "Vanity metrics are the biggest trap in digital marketing. Likes, follows, and impressions feel good, but they do not pay salaries. The metrics that actually matter are the ones that connect directly to revenue.",
+    "Here are the four metrics every business owner should track. First, cost per lead (CPL). How much are you paying to get one genuine enquiry? If you are spending ₹20,000 a month on ads and getting 40 enquiries, your CPL is ₹500. That number should decrease over time as your campaigns optimise.",
+    "Second, conversion rate. Of every 100 people who visit your website, how many take the action you want — fill a form, make a call, place an order? A good conversion rate for most Indian businesses is between 2% and 5%. If yours is below 1%, your website has a problem.",
+    "Third, customer acquisition cost (CAC). This is the total cost of acquiring one paying customer — not just the ad spend, but the agency fees, the content creation, everything. Compare this to how much that customer is worth to you over time. If you spend ₹2,000 to acquire a customer who spends ₹50,000 with you over a year, that is excellent.",
+    "Fourth, return on ad spend (ROAS). For every ₹1 you spend on ads, how much revenue comes back? A ROAS of 3x means you are making ₹3 for every ₹1 spent. Anything below 2x for most businesses means you are not spending efficiently.",
+    "At Web Design in Vijayawada, we set up tracking and reporting from day one — so you always know exactly what your marketing spend is producing. No vanity metrics. No fluff. Just the numbers that matter to your bottom line."
+   ]
+  },
+  "seo-vs-paid-ads-whats-right-for-your-business": {
+   "slug": "seo-vs-paid-ads-whats-right-for-your-business",
+   "category": "Marketing",
+   "date": "Jun 2026",
+   "read": "6 min read",
+   "title": "SEO vs. Paid Ads: What’s Right for Your Business?",
+   "excerpt": "Both work. But they work differently. Understanding the tradeoff is the first step to spending your marketing budget wisely.",
+   "body": [
+    "Every business owner eventually asks the same question: should I invest in SEO or paid ads? The honest answer is that both work — but they work on different timelines, with different strengths, and for different situations.",
+    "Paid ads (Google Ads, Meta Ads, Instagram Ads) are like turning on a tap. You pay, and traffic flows. The moment you stop paying, the traffic stops. Paid ads are ideal when you need results quickly — a product launch, a seasonal sale, a new location opening. You can target exactly who you want, control your budget down to the rupee, and see results within days.",
+    "SEO (Search Engine Optimisation) is like planting a tree. It takes time to grow, but once it does, it keeps giving you fruit — for free. SEO is the practice of making your website show up in Google’s organic results. It takes 3–6 months to see meaningful results, but once you rank, you get a steady stream of visitors without paying for each click.",
+    "The tradeoff is simple: paid ads give you speed, SEO gives you sustainability. The smartest businesses do both — using paid ads for immediate needs while building SEO as a long-term asset.",
+    "Here is a rule of thumb we use with our clients: if you need leads this week, run ads. If you want to reduce your ad spend over time, invest in SEO. If you can afford to do both, do both — because the combination is more powerful than either one alone.",
+    "The biggest mistake we see? Businesses that spend ₹50,000 a month on ads indefinitely without ever investing in SEO. They are renting their traffic instead of owning it. The day they stop paying, they go back to zero.",
+    "At Web Design in Vijayawada, we help businesses build a balanced digital marketing strategy — paid ads for immediate impact, SEO for compounding growth. Because the best marketing strategy is the one that works today and keeps working tomorrow."
+   ]
+  },
+  "the-real-cost-of-a-badly-designed-website": {
+   "slug": "the-real-cost-of-a-badly-designed-website",
+   "category": "Design",
+   "date": "May 2026",
+   "read": "4 min read",
+   "title": "The Real Cost of a Badly Designed Website",
+   "excerpt": "Bad design isn’t just ugly — it actively costs you customers, rankings and credibility. Here’s what to look for and how to fix it.",
+   "body": [
+    "A badly designed website is not just an aesthetic problem. It is a business problem. Every day your website is poorly designed, you are losing customers, losing search rankings, and losing credibility — and you probably have no idea how much it is costing you.",
+    "Let us start with trust. Studies show that 75% of users judge a company’s credibility based on its website design. Not its product. Not its service. Its website. If your website looks amateur, visitors assume your business is amateur — and they leave.",
+    "Then there is the Google problem. Google’s algorithm considers user experience as a ranking factor. If visitors land on your site and immediately leave (a high bounce rate), Google notices. It pushes your site lower in search results. Bad design does not just cost you the visitors who see it — it costs you the visitors who never find you in the first place.",
+    "The financial cost is real and measurable. Let us say your website gets 1,000 visitors a month. A well-designed site converts 3% of them — 30 customers. A poorly designed site converts 0.5% — just 5 customers. That is 25 customers a month you are losing. Multiply that by your average customer value and you will see the true cost of bad design.",
+    "Common design problems we see every day: cluttered layouts with no visual hierarchy, fonts that are hard to read, images that are blurry or stretched, no clear call to action, inconsistent branding, and pages that take too long to load because nobody optimised the images.",
+    "The fix is not a redesign for the sake of looking pretty. It is a redesign with purpose — every element placed to guide the visitor toward the action you want them to take. Clean layout. Clear hierarchy. Fast loading. Mobile-first. Conversion-focused.",
+    "At Web Design in Vijayawada, we design websites that look outstanding and work even harder. Because the best design is the one that makes your business money."
+   ]
+  },
+  "whatsapp-automation-the-secret-weapon-for-local-businesses": {
+   "slug": "whatsapp-automation-the-secret-weapon-for-local-businesses",
+   "category": "Automation",
+   "date": "Jul 2026",
+   "read": "3 min read",
+   "title": "WhatsApp Automation: The Secret Weapon for Local Businesses",
+   "excerpt": "Customers who message you expect a fast reply. Automated responses can follow up, qualify and convert leads while you sleep.",
+   "body": [
+    "Here is a reality most local business owners face every day: a customer sends a WhatsApp message at 9 PM. You are with your family, or you are asleep, or you are at another job. By the time you reply the next morning, they have already messaged three of your competitors — and one of them replied instantly.",
+    "That is the problem WhatsApp automation solves. It is not about replacing you. It is about making sure your business responds instantly, every time, even when you are not available.",
+    "How does it work? When a customer messages your WhatsApp Business number, an automated system sends them an immediate, personalised response. It can answer common questions, share your menu or price list, book an appointment, or collect their details so you can follow up later.",
+    "The best part? It works while you sleep. Appointment reminders go out automatically. Order confirmations are sent instantly. Follow-up messages are triggered based on what the customer did — all without you lifting a finger.",
+    "Local businesses that set up WhatsApp automation see three immediate benefits. First, faster response times — which directly increases the chance of converting an enquiry into a sale. Second, fewer missed leads — because every message gets a reply, not just the ones you happen to see. Third, more time — because the system handles the repetitive conversations so you can focus on delivering your actual service.",
+    "At Web Design in Vijayawada, we set up WhatsApp automation systems for local businesses across India. From a single-person clinic to a multi-location retail chain — the setup is simple, the results are immediate, and the cost is a fraction of hiring another person to reply to messages."
+   ]
+  },
+  "why-your-business-needs-a-brand-not-just-a-logo": {
+   "slug": "why-your-business-needs-a-brand-not-just-a-logo",
+   "category": "Branding",
+   "date": "Aug 2026",
+   "read": "4 min read",
+   "title": "Why Your Business Needs a Brand, Not Just a Logo",
+   "excerpt": "A logo is a mark. A brand is the feeling people get when they hear your name. Here’s why the difference matters for your bottom line.",
+   "body": [
+    "Most business owners start with a logo. They pay someone to design a mark, pick a colour palette, maybe choose a font — and they call it done. But a logo is not a brand. A logo is a symbol. A brand is what people feel when they see that symbol.",
+    "Think about the businesses you trust the most. You don’t trust them because of their logo. You trust them because of how they made you feel — the consistency of their message, the quality of their work, the way they communicate. That is brand.",
+    "A strong brand does three things for your business. First, it builds recognition. When your brand is consistent across every touchpoint — your website, your social media, your packaging, your invoices — people start to remember you. Recognition is the first step to trust.",
+    "Second, it commands a premium. Businesses with strong brands can charge more. Not because their product is necessarily better, but because the perceived value is higher. A ₹500 t-shirt with a strong brand behind it feels different from a ₹500 t-shirt from a shop with no identity.",
+    "Third, it makes marketing easier. When your brand has a clear voice, a clear look, and a clear message, every piece of marketing you create starts from a position of strength. You are not starting from scratch every time — you are building on something people already recognise.",
+    "The businesses that invest in brand — not just a logo, but a real brand system — are the ones that grow faster, charge more, and keep customers longer. If you are still operating with just a logo and no brand strategy, you are leaving money on the table.",
+    "At Web Design in Vijayawada, we build brands from the ground up — strategy, identity, voice, and visual system. Because a logo is a starting point. A brand is a competitive advantage."
+   ]
+  }
+ },
+ "privacy": {
+  "title": "Privacy Policy",
+  "lead": "How we collect, use, and protect your personal information — explained in plain language.",
+  "updated": "Last updated: September 2026",
+  "blocks": [
+   [
+    "h2",
+    "1. Introduction"
+   ],
+   [
+    "p",
+    "Creators Touch Global (\"Company\", \"we\", \"us\", or \"our\") is committed to protecting the privacy of individuals who visit our website at creatorstouchglobal.com (\"Site\") and those who engage our services."
+   ],
+   [
+    "p",
+    "This Privacy Policy explains how we collect, use, store, disclose, and protect your personal information. By using our Site or services, you consent to the practices described in this policy."
+   ],
+   [
+    "p",
+    "We are headquartered in Vijayawada, Andhra Pradesh, India and serve clients across India, the United Kingdom, UAE, Singapore, and the USA."
+   ],
+   [
+    "h2",
+    "2. Information We Collect"
+   ],
+   [
+    "p",
+    "We collect information in the following ways:"
+   ],
+   [
+    "p",
+    "Information you provide directly: • Name, email address, phone number, and business name when you fill out our contact or enquiry forms • Project requirements, briefs, and business information shared during consultations • Payment and billing information required for invoicing • Content, images, brand assets, and login credentials provided for project execution • Communication records including emails, WhatsApp messages, and call notes"
+   ],
+   [
+    "p",
+    "Information collected automatically: • IP address, browser type, device type, and operating system • Pages visited, time spent on pages, and referring URLs • Cookies and similar tracking technologies (see Section 7)"
+   ],
+   [
+    "p",
+    "Information from third parties: • Analytics data from Google Analytics and Google Tag Manager • Advertising data from Meta (Facebook) Pixel • Publicly available business information relevant to your project"
+   ],
+   [
+    "h2",
+    "3. How We Use Your Information"
+   ],
+   [
+    "p",
+    "We use the information we collect for the following purposes:"
+   ],
+   [
+    "p",
+    "• To respond to your enquiries and provide consultations • To deliver our services — design, development, marketing, and other project work • To process payments and manage billing • To communicate with you about project progress, deliverables, and support • To send you relevant updates, offers, or newsletters (only with your consent) • To improve our website, services, and user experience • To analyse website traffic and user behaviour using analytics tools • To run and optimise advertising campaigns on Google and Meta platforms • To comply with legal obligations and protect our rights"
+   ],
+   [
+    "p",
+    "We do not sell, rent, or trade your personal information to third parties for their marketing purposes."
+   ],
+   [
+    "h2",
+    "4. Data Sharing and Disclosure"
+   ],
+   [
+    "p",
+    "We may share your information with the following categories of recipients:"
+   ],
+   [
+    "p",
+    "• Team members: Our in-house team accesses client information only as necessary to deliver project work. • Service providers: We use third-party tools and platforms for hosting, email, analytics, payment processing, and project management. These providers are bound by their own privacy policies. • Advertising platforms: We use Google Ads and Meta (Facebook/Instagram) advertising platforms that may receive anonymised or aggregated data for campaign optimisation. • Legal requirements: We may disclose your information if required by law, court order, or government regulation, or to protect our rights, safety, or property."
+   ],
+   [
+    "p",
+    "We do not share your personal information with third parties for purposes unrelated to our services without your explicit consent."
+   ],
+   [
+    "h2",
+    "5. Data Retention"
+   ],
+   [
+    "p",
+    "We retain your personal information for as long as necessary to fulfil the purposes described in this policy, or as required by law. Specifically:"
+   ],
+   [
+    "p",
+    "• Client project data: Retained for the duration of the engagement and for a period of 3 years after project completion for reference and support purposes. • Contact and enquiry data: Retained for up to 2 years after your last interaction with us. • Financial and billing records: Retained for 7 years as required by Indian tax and accounting regulations. • Analytics data: Retained as per the default retention settings of the analytics platforms we use (typically 14 months for Google Analytics)."
+   ],
+   [
+    "p",
+    "You may request deletion of your personal data at any time by contacting us (see Section 11). We will comply with such requests unless we are legally required to retain the data."
+   ],
+   [
+    "h2",
+    "6. Data Security"
+   ],
+   [
+    "p",
+    "We take reasonable technical and organisational measures to protect your personal information from unauthorised access, alteration, disclosure, or destruction. These measures include:"
+   ],
+   [
+    "p",
+    "• SSL/TLS encryption on our website • Secure password-protected access to internal systems and client files • Access controls limiting data access to authorised team members only • Regular backups of client project data • Use of reputable and secure third-party hosting and cloud services"
+   ],
+   [
+    "p",
+    "While we strive to protect your information, no method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee absolute security but will promptly notify affected parties in the event of a data breach as required by applicable law."
+   ],
+   [
+    "h2",
+    "7. Cookies and Tracking Technologies"
+   ],
+   [
+    "p",
+    "Our Site uses cookies and similar tracking technologies to improve your browsing experience and analyse site usage."
+   ],
+   [
+    "p",
+    "Types of cookies we use:"
+   ],
+   [
+    "p",
+    "• Essential cookies: Required for the basic functioning of the Site (e.g., session management). • Analytics cookies: Used by Google Analytics and Google Tag Manager to collect anonymised data about how visitors use our Site — pages visited, time spent, traffic sources. • Advertising cookies: Used by Meta (Facebook) Pixel and Google Ads to track conversions from our advertising campaigns and to enable retargeting."
+   ],
+   [
+    "p",
+    "You can manage or disable cookies through your browser settings. However, disabling certain cookies may affect the functionality of our Site."
+   ],
+   [
+    "p",
+    "Third-party cookies are governed by the respective privacy policies of Google and Meta."
+   ],
+   [
+    "h2",
+    "8. Third-Party Links and Services"
+   ],
+   [
+    "p",
+    "Our Site may contain links to third-party websites, tools, or platforms (including but not limited to Google, Meta, Shopify, WordPress, and various hosting and payment providers)."
+   ],
+   [
+    "p",
+    "We are not responsible for the privacy practices, content, or security of these third-party services. We encourage you to review the privacy policies of any third-party sites or services you interact with through our Site."
+   ],
+   [
+    "h2",
+    "9. Your Rights"
+   ],
+   [
+    "p",
+    "Depending on your location and applicable laws, you may have the following rights regarding your personal information:"
+   ],
+   [
+    "p",
+    "• Right to access: Request a copy of the personal data we hold about you. • Right to correction: Request correction of inaccurate or incomplete personal data. • Right to deletion: Request deletion of your personal data, subject to legal retention requirements. • Right to restrict processing: Request that we limit how we use your data. • Right to data portability: Request your data in a structured, commonly used format. • Right to withdraw consent: Withdraw consent for marketing communications at any time. • Right to object: Object to the processing of your data for certain purposes."
+   ],
+   [
+    "p",
+    "To exercise any of these rights, please contact us using the details in Section 11. We will respond to your request within 30 days."
+   ],
+   [
+    "h2",
+    "10. Children's Privacy"
+   ],
+   [
+    "p",
+    "Our Site and services are not directed at individuals under the age of 18. We do not knowingly collect personal information from children. If we become aware that we have collected personal data from a child under 18 without parental consent, we will take steps to delete that information promptly."
+   ],
+   [
+    "p",
+    "If you believe we have inadvertently collected information from a minor, please contact us immediately."
+   ],
+   [
+    "h2",
+    "11. Contact Us"
+   ],
+   [
+    "p",
+    "If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your personal data, please contact us:"
+   ],
+   [
+    "p",
+    "Creators Touch Global Vijayawada, Andhra Pradesh, India Email: info@creatorstouchglobal.com Phone: +91-98859-33339 Website: creatorstouchglobal.com"
+   ],
+   [
+    "h2",
+    "12. Changes to This Policy"
+   ],
+   [
+    "p",
+    "We may update this Privacy Policy from time to time to reflect changes in our practices, technologies, or legal requirements. Any changes will be posted on this page with an updated \"Last updated\" date."
+   ],
+   [
+    "p",
+    "We encourage you to review this page periodically. Your continued use of our Site and services after any changes constitutes your acceptance of the updated policy."
+   ],
+   [
+    "h2",
+    "Questions about your data?"
+   ],
+   [
+    "p",
+    "We take your privacy seriously. If you have any concerns, we're happy to help."
+   ],
+   [
+    "a",
+    "Contact us →"
+   ]
+  ]
+ },
+ "terms": {
+  "title": "Terms & Conditions",
+  "lead": "Please read these terms carefully before using our website or engaging our services.",
+  "updated": "Last updated: September 2026",
+  "blocks": [
+   [
+    "h2",
+    "1. Introduction"
+   ],
+   [
+    "p",
+    "Welcome to Creators Touch Global (\"Company\", \"we\", \"us\", or \"our\"). These Terms and Conditions (\"Terms\") govern your use of our website located at creatorstouchglobal.com (\"Site\") and any services, products, or engagements provided by Creators Touch Global."
+   ],
+   [
+    "p",
+    "By accessing or using our Site and services, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you must not use our Site or services."
+   ],
+   [
+    "h2",
+    "2. About Us"
+   ],
+   [
+    "p",
+    "Creators Touch Global is a digital studio headquartered in Vijayawada, Andhra Pradesh, India, operating since 2008. We provide web design, web development, e-commerce solutions, SEO, digital marketing, branding, content creation, mobile application development, WhatsApp automation, CRM integration, and AI-powered solutions to businesses across India, the United Kingdom, UAE, Singapore, and the USA."
+   ],
+   [
+    "p",
+    "Registered Address: Vijayawada, Andhra Pradesh, India Email: info@creatorstouchglobal.com Phone: +91-98859-33339"
+   ],
+   [
+    "h2",
+    "3. Services"
+   ],
+   [
+    "p",
+    "We offer digital services including but not limited to:"
+   ],
+   [
+    "p",
+    "• Website design and development (corporate, e-commerce, landing pages, CMS, portals) • Brand identity and logo design • Search engine optimisation (SEO) and digital marketing • Google Ads and Meta (Facebook/Instagram) advertising • Social media management and content creation • Mobile application development (Android, iOS, Flutter, React Native) • WhatsApp Business automation and CRM integration • AI chatbot development and integration • Video production and motion graphics • Consulting and digital strategy"
+   ],
+   [
+    "p",
+    "All services are subject to individual agreements, proposals, or statements of work agreed upon between the Company and the client prior to commencement."
+   ],
+   [
+    "h2",
+    "4. Intellectual Property"
+   ],
+   [
+    "p",
+    "All content on this Site — including text, graphics, logos, images, videos, icons, software, and design — is the property of Creators Touch Global or its content suppliers and is protected by applicable intellectual property laws."
+   ],
+   [
+    "p",
+    "You may not reproduce, distribute, modify, create derivative works of, publicly display, or exploit any content from this Site without our prior written consent."
+   ],
+   [
+    "p",
+    "For client projects: ownership of deliverables transfers to the client only upon full and final payment, unless otherwise specified in the project agreement. Until full payment is received, all work remains the intellectual property of Creators Touch Global."
+   ],
+   [
+    "h2",
+    "5. Client Responsibilities"
+   ],
+   [
+    "p",
+    "When engaging our services, you agree to:"
+   ],
+   [
+    "p",
+    "• Provide accurate and complete information required for the project • Supply necessary content, images, branding assets, and access credentials in a timely manner • Review and provide feedback on deliverables within agreed timelines • Make payments as per the agreed schedule • Ensure that all materials provided to us do not infringe on any third-party intellectual property rights"
+   ],
+   [
+    "p",
+    "Delays caused by the client in providing materials, feedback, or approvals may result in extended timelines and are not the responsibility of Creators Touch Global."
+   ],
+   [
+    "h2",
+    "6. Payments and Billing"
+   ],
+   [
+    "p",
+    "• All project fees, payment schedules, and terms are outlined in the project proposal or agreement shared with the client before work begins. • We typically require an advance payment before commencing work, with the balance due upon completion or as per the agreed milestone schedule. • Payments can be made via bank transfer, UPI, or other methods specified in the invoice. • Late payments may attract interest at 1.5% per month on the outstanding amount. • We reserve the right to pause or suspend work on any project where payments are overdue by more than 15 days."
+   ],
+   [
+    "h2",
+    "7. Revisions and Scope Changes"
+   ],
+   [
+    "p",
+    "• Each project includes a defined number of revision rounds as specified in the project proposal. • Additional revisions beyond the agreed scope will be billed at our standard hourly rate or as a separate quote. • Changes to the project scope, requirements, or deliverables after the project has commenced may result in revised timelines and additional charges. • Scope changes must be agreed upon in writing by both parties before implementation."
+   ],
+   [
+    "h2",
+    "8. Warranties and Disclaimers"
+   ],
+   [
+    "p",
+    "• We warrant that our services will be performed with reasonable skill and care consistent with industry standards. • We do not guarantee specific business outcomes such as search engine rankings, traffic volumes, conversion rates, or revenue increases. Results depend on multiple factors beyond our control. • Our Site and services are provided \"as is\" and \"as available\" without warranties of any kind, either express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, or non-infringement. • We do not warrant that the Site will be uninterrupted, error-free, or free of viruses or other harmful components."
+   ],
+   [
+    "h2",
+    "9. Limitation of Liability"
+   ],
+   [
+    "p",
+    "To the maximum extent permitted by applicable law:"
+   ],
+   [
+    "p",
+    "• Creators Touch Global shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of our Site or services. • Our total liability for any claim arising from or related to our services shall not exceed the total fees paid by you to us for the specific project giving rise to the claim. • We shall not be liable for any loss of data, revenue, profits, or business opportunities arising from the use of our services or any third-party platforms, tools, or services integrated into your project."
+   ],
+   [
+    "h2",
+    "10. Confidentiality"
+   ],
+   [
+    "p",
+    "Both parties agree to keep confidential any proprietary or sensitive information shared during the course of the engagement. This includes business strategies, customer data, financial information, login credentials, and any unpublished creative work."
+   ],
+   [
+    "p",
+    "This obligation of confidentiality survives the termination of the engagement and remains in effect indefinitely unless the information becomes publicly available through no fault of the receiving party."
+   ],
+   [
+    "h2",
+    "11. Termination"
+   ],
+   [
+    "p",
+    "• Either party may terminate a project engagement by providing written notice as specified in the project agreement. • Upon termination, the client is liable to pay for all work completed up to the date of termination. • Any advance payments made are non-refundable unless otherwise agreed in writing. • Upon termination, we will provide the client with all completed deliverables for which payment has been received."
+   ],
+   [
+    "h2",
+    "12. Third-Party Services"
+   ],
+   [
+    "p",
+    "Our services may involve the use of third-party platforms, tools, APIs, or services (including but not limited to Google, Meta, Shopify, WordPress, WhatsApp Business API, hosting providers, and payment gateways)."
+   ],
+   [
+    "p",
+    "We are not responsible for the terms, policies, availability, or performance of these third-party services. Your use of such services is governed by their respective terms and conditions."
+   ],
+   [
+    "h2",
+    "13. Website Usage"
+   ],
+   [
+    "p",
+    "By using this Site, you agree not to:"
+   ],
+   [
+    "p",
+    "• Use the Site for any unlawful purpose or in violation of any applicable laws • Attempt to gain unauthorised access to any part of the Site or its servers • Use automated tools, bots, or scrapers to extract content from the Site • Transmit any viruses, malware, or harmful code through the Site • Reproduce, duplicate, or exploit any part of the Site for commercial purposes without our permission"
+   ],
+   [
+    "h2",
+    "14. Links to Other Websites"
+   ],
+   [
+    "p",
+    "Our Site may contain links to third-party websites that are not operated by us. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites. We encourage you to review the terms and privacy policies of any third-party sites you visit."
+   ],
+   [
+    "h2",
+    "15. Governing Law and Jurisdiction"
+   ],
+   [
+    "p",
+    "These Terms shall be governed by and construed in accordance with the laws of India. Any disputes arising out of or in connection with these Terms or our services shall be subject to the exclusive jurisdiction of the courts in Vijayawada, Andhra Pradesh, India."
+   ],
+   [
+    "h2",
+    "16. Changes to These Terms"
+   ],
+   [
+    "p",
+    "We reserve the right to modify or update these Terms at any time without prior notice. Changes will be effective immediately upon posting on this page. Your continued use of the Site and services after any changes constitutes your acceptance of the revised Terms."
+   ],
+   [
+    "p",
+    "We recommend reviewing this page periodically to stay informed of any updates."
+   ],
+   [
+    "h2",
+    "17. Contact Us"
+   ],
+   [
+    "p",
+    "If you have any questions about these Terms and Conditions, please contact us:"
+   ],
+   [
+    "p",
+    "Creators Touch Global Vijayawada, Andhra Pradesh, India Email: info@creatorstouchglobal.com Phone: +91-98859-33339 Website: creatorstouchglobal.com"
+   ]
+  ]
+ }
+}

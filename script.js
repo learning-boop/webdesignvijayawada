@@ -4,14 +4,15 @@
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
   // Footer year never goes stale
-  document.getElementById('year').textContent = new Date().getFullYear()
+  const year = document.getElementById('year')
+  if (year) year.textContent = new Date().getFullYear()
 
   // Nav background once the page scrolls; WhatsApp pill after the hero
   const nav = document.getElementById('nav')
   const chat = document.querySelector('.float-chat')
   const onScroll = () => {
     nav.classList.toggle('is-scrolled', window.scrollY > 24)
-    chat.classList.toggle('is-shown', window.scrollY > window.innerHeight * 0.7)
+    chat?.classList.toggle('is-shown', window.scrollY > window.innerHeight * 0.7)
   }
   window.addEventListener('scroll', onScroll, { passive: true })
   onScroll()
@@ -28,25 +29,29 @@
   menu.addEventListener('click', (e) => e.target.closest('a') && setMenu(false))
   document.addEventListener('keydown', (e) => e.key === 'Escape' && setMenu(false))
 
-  // Intro: CSS opens the hands and fades the overlay; this removes it and lets the page scroll.
-  // Clicking or pressing a key skips it.
+  // Intro (home page only): CSS opens the hands and fades the overlay; this removes it and lets
+  // the page scroll. Clicking or pressing a key skips it. Inner pages start straight away.
   const intro = document.getElementById('intro')
   let introDone = false
   const finishIntro = () => {
     if (introDone) return
     introDone = true
-    intro.remove()
+    intro?.remove()
     document.body.classList.remove('is-loading')
-    document.querySelector('.hero').classList.add('is-in')
+    document.querySelector('.hero')?.classList.add('is-in')
     startReveal()
     window.__introDone = true
     window.dispatchEvent(new Event('intro:done'))
   }
-  document.body.classList.add('is-loading')
-  intro.addEventListener('animationend', (e) => e.animationName === 'intro-out' && finishIntro())
-  intro.addEventListener('click', finishIntro)
-  window.addEventListener('keydown', finishIntro, { once: true })
-  setTimeout(finishIntro, reduceMotion ? 0 : 3600)
+  if (intro) {
+    document.body.classList.add('is-loading')
+    intro.addEventListener('animationend', (e) => e.animationName === 'intro-out' && finishIntro())
+    intro.addEventListener('click', finishIntro)
+    window.addEventListener('keydown', finishIntro, { once: true })
+    setTimeout(finishIntro, reduceMotion ? 0 : 3600)
+  } else {
+    setTimeout(finishIntro)
+  }
 
   // Scroll reveal (starts once the intro has gone, so the hero animates in view)
   const io = new IntersectionObserver(
@@ -63,9 +68,9 @@
     document.querySelectorAll('.reveal').forEach((el) => io.observe(el))
   }
 
-  // Work filters
+  // Project filters (home showcase and portfolio page)
   const filters = document.querySelectorAll('.filter')
-  const cards = document.querySelectorAll('.work-card')
+  const cards = document.querySelectorAll('[data-cat]')
   filters.forEach((btn) =>
     btn.addEventListener('click', () => {
       const f = btn.dataset.filter
@@ -83,8 +88,8 @@
   // Hero visual: layers drift with the pointer at different depths, blobs move the opposite way
   const hero = document.querySelector('.hero')
   const bg = document.querySelector('.hero-bg')
-  const layers = hero.querySelectorAll('[data-depth]')
-  if (!reduceMotion && window.matchMedia('(pointer: fine)').matches) {
+  if (hero && bg && !reduceMotion && window.matchMedia('(pointer: fine)').matches) {
+    const layers = hero.querySelectorAll('[data-depth]')
     hero.addEventListener('pointermove', (e) => {
       const r = hero.getBoundingClientRect()
       const x = (e.clientX - r.left) / r.width - 0.5
@@ -103,28 +108,30 @@
 
   // Floating audit card: appears once the visitor scrolls past the hero, remembered when closed
   const promo = document.getElementById('promo')
-  let dismissed = false
-  try {
-    dismissed = localStorage.getItem('wdv-promo-closed') === '1'
-  } catch {}
-  const showPromo = () => {
-    if (dismissed || window.scrollY < hero.offsetHeight) return
-    promo.hidden = false
-    window.removeEventListener('scroll', showPromo)
-  }
-  window.addEventListener('scroll', showPromo, { passive: true })
-  document.getElementById('promoClose').addEventListener('click', () => {
-    dismissed = true
-    promo.hidden = true
+  if (promo) {
+    let dismissed = false
     try {
-      localStorage.setItem('wdv-promo-closed', '1')
+      dismissed = localStorage.getItem('wdv-promo-closed') === '1'
     } catch {}
-  })
+    const showPromo = () => {
+      if (dismissed || window.scrollY < (hero ? hero.offsetHeight : 600)) return
+      promo.hidden = false
+      window.removeEventListener('scroll', showPromo)
+    }
+    window.addEventListener('scroll', showPromo, { passive: true })
+    document.getElementById('promoClose').addEventListener('click', () => {
+      dismissed = true
+      promo.hidden = true
+      try {
+        localStorage.setItem('wdv-promo-closed', '1')
+      } catch {}
+    })
+  }
 
   // Enquiry form → opens WhatsApp with the message pre-filled (no backend needed)
   const form = document.getElementById('enquiry')
   const error = document.getElementById('formError')
-  form.addEventListener('submit', (e) => {
+  form?.addEventListener('submit', (e) => {
     e.preventDefault()
     const data = new FormData(form)
     const name = String(data.get('name') || '').trim()

@@ -84,96 +84,102 @@
   }
 
   const title = document.getElementById('heroTitle')
-  splitWords(title)
-  const titleWords = title.querySelectorAll('.wi')
-  gsap.set(titleWords, { yPercent: 115 })
-  title.classList.add('is-split')
-  onIntroDone(() =>
-    gsap.to(titleWords, { yPercent: 0, duration: 1.1, ease: 'power4.out', stagger: 0.07, delay: 0.05 }),
-  )
+  if (title) {
+    splitWords(title)
+    const titleWords = title.querySelectorAll('.wi')
+    gsap.set(titleWords, { yPercent: 115 })
+    title.classList.add('is-split')
+    onIntroDone(() =>
+      gsap.to(titleWords, { yPercent: 0, duration: 1.1, ease: 'power4.out', stagger: 0.07, delay: 0.05 }),
+    )
+  }
 
   /* ---------- Logo story: hands part, dot grows into the panel ---------- */
   const reveal = document.querySelector('.dotreveal')
-  const panel = reveal.querySelector('.dr-panel')
-  const logo = reveal.querySelector('.dr-logo')
-  const dot = reveal.querySelector('.dr-dot')
-  const drText = reveal.querySelector('.dr-text')
+  if (reveal) {
+    const panel = reveal.querySelector('.dr-panel')
+    const logo = reveal.querySelector('.dr-logo')
+    const dot = reveal.querySelector('.dr-dot')
+    const drText = reveal.querySelector('.dr-text')
 
-  const words = drText.textContent.trim().split(/\s+/)
-  drText.textContent = ''
-  words.forEach((w, i) => {
-    const span = document.createElement('span')
-    span.className = 'w'
-    span.textContent = w
-    drText.append(span, i < words.length - 1 ? ' ' : '')
-  })
-
-  // The green dot is ~17.8% of the logo's width
-  const dotRadius = () => logo.offsetWidth * 0.089
-  const fullRadius = () => Math.hypot(innerWidth, innerHeight) / 2 + 40
-
-  gsap
-    .timeline({
-      defaults: { ease: 'none' },
-      scrollTrigger: {
-        trigger: reveal,
-        start: 'top top',
-        end: 'bottom bottom',
-        scrub: 0.8,
-        invalidateOnRefresh: true,
-      },
+    const words = drText.textContent.trim().split(/\s+/)
+    drText.textContent = ''
+    words.forEach((w, i) => {
+      const span = document.createElement('span')
+      span.className = 'w'
+      span.textContent = w
+      drText.append(span, i < words.length - 1 ? ' ' : '')
     })
-    // fromTo everywhere: invalidateOnRefresh re-reads start values, which would break plain from/to
-    .fromTo(panel, { '--r': dotRadius }, { '--r': fullRadius, duration: 0.4, ease: 'power2.in' }, 0)
-    .fromTo(logo.querySelector('.hand-blue'), { xPercent: 0, yPercent: 0, rotate: 0 }, { xPercent: -95, yPercent: -85, rotate: -30, duration: 0.4, ease: 'power1.in' }, 0)
-    .fromTo(logo.querySelector('.hand-pink'), { xPercent: 0, yPercent: 0, rotate: 0 }, { xPercent: 95, yPercent: 85, rotate: -30, duration: 0.4, ease: 'power1.in' }, 0)
-    .fromTo(logo, { opacity: 1 }, { opacity: 0, duration: 0.1 }, 0.3)
-    .fromTo(dot, { opacity: 1 }, { opacity: 0, duration: 0.18 }, 0.14)
-    .fromTo(reveal.querySelector('.dr-content'), { opacity: 0 }, { opacity: 1, duration: 0.12 }, 0.22)
-    .fromTo(reveal.querySelector('.eyebrow'), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.08 }, 0.36)
-    .fromTo(drText.querySelectorAll('.w'), { opacity: 0.28 }, { opacity: 1, stagger: 0.012, duration: 0.05 }, 0.4)
-    .fromTo(reveal.querySelectorAll('.dr-points li'), { opacity: 0, y: 40 }, { opacity: 1, y: 0, stagger: 0.05, duration: 0.12 }, 0.78)
+
+    // The green dot is ~17.8% of the logo's width
+    const dotRadius = () => logo.offsetWidth * 0.089
+    const fullRadius = () => Math.hypot(innerWidth, innerHeight) / 2 + 40
+
+    gsap
+      .timeline({
+        defaults: { ease: 'none' },
+        scrollTrigger: {
+          trigger: reveal,
+          start: 'top top',
+          end: 'bottom bottom',
+          scrub: 0.8,
+          invalidateOnRefresh: true,
+        },
+      })
+      // fromTo everywhere: invalidateOnRefresh re-reads start values, which would break plain from/to
+      .fromTo(panel, { '--r': dotRadius }, { '--r': fullRadius, duration: 0.4, ease: 'power2.in' }, 0)
+      .fromTo(logo.querySelector('.hand-blue'), { xPercent: 0, yPercent: 0, rotate: 0 }, { xPercent: -95, yPercent: -85, rotate: -30, duration: 0.4, ease: 'power1.in' }, 0)
+      .fromTo(logo.querySelector('.hand-pink'), { xPercent: 0, yPercent: 0, rotate: 0 }, { xPercent: 95, yPercent: 85, rotate: -30, duration: 0.4, ease: 'power1.in' }, 0)
+      .fromTo(logo, { opacity: 1 }, { opacity: 0, duration: 0.1 }, 0.3)
+      .fromTo(dot, { opacity: 1 }, { opacity: 0, duration: 0.18 }, 0.14)
+      .fromTo(reveal.querySelector('.dr-content'), { opacity: 0 }, { opacity: 1, duration: 0.12 }, 0.22)
+      .fromTo(reveal.querySelector('.eyebrow'), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.08 }, 0.36)
+      .fromTo(drText.querySelectorAll('.w'), { opacity: 0.28 }, { opacity: 1, stagger: 0.012, duration: 0.05 }, 0.4)
+      .fromTo(reveal.querySelectorAll('.dr-points li'), { opacity: 0, y: 40 }, { opacity: 1, y: 0, stagger: 0.05, duration: 0.12 }, 0.78)
+  }
 
   /* ---------- Sideways project showcase (desktop) ---------- */
   const work = document.querySelector('.work')
-  const track = work.querySelector('.work-track')
-  const bar = work.querySelector('.work-progress u')
-  const countEl = work.querySelector('.work-count b')
-  const totalEl = work.querySelector('.work-total')
-  const pad = (n) => String(n).padStart(2, '0')
+  if (work) {
+    const track = work.querySelector('.work-track')
+    const bar = work.querySelector('.work-progress u')
+    const countEl = work.querySelector('.work-count b')
+    const totalEl = work.querySelector('.work-total')
+    const pad = (n) => String(n).padStart(2, '0')
 
-  gsap.matchMedia().add('(min-width: 861px) and (min-height: 641px)', () => {
-    const distance = () => Math.max(0, track.scrollWidth - innerWidth)
-    const skew = gsap.quickTo(track, 'skewX', { duration: 0.5, ease: 'power3.out' })
-    const settle = () => skew(0)
-    ScrollTrigger.addEventListener('scrollEnd', settle)
+    gsap.matchMedia().add('(min-width: 861px) and (min-height: 641px)', () => {
+      const distance = () => Math.max(0, track.scrollWidth - innerWidth)
+      const skew = gsap.quickTo(track, 'skewX', { duration: 0.5, ease: 'power3.out' })
+      const settle = () => skew(0)
+      ScrollTrigger.addEventListener('scrollEnd', settle)
 
-    gsap.fromTo(track, { x: 0 }, {
-      x: () => -distance(),
-      ease: 'none',
-      scrollTrigger: {
-        id: 'work',
-        trigger: work,
-        start: 'top top',
-        end: () => `+=${distance()}`,
-        pin: true,
-        scrub: 0.6,
-        anticipatePin: 1,
-        invalidateOnRefresh: true,
-        onRefresh: (self) => self.vars.onUpdate(self),
-        onUpdate: (self) => {
-          const total = track.querySelectorAll('.work-card:not([hidden])').length
-          bar.style.transform = `scaleX(${self.progress})`
-          countEl.textContent = pad(Math.min(total, 1 + Math.floor(self.progress * total)))
-          totalEl.textContent = pad(total)
-          // Lean slightly into fast scrolling
-          skew(gsap.utils.clamp(-4, 4, self.getVelocity() / -300))
+      gsap.fromTo(track, { x: 0 }, {
+        x: () => -distance(),
+        ease: 'none',
+        scrollTrigger: {
+          id: 'work',
+          trigger: work,
+          start: 'top top',
+          end: () => `+=${distance()}`,
+          pin: true,
+          scrub: 0.6,
+          anticipatePin: 1,
+          invalidateOnRefresh: true,
+          onRefresh: (self) => self.vars.onUpdate(self),
+          onUpdate: (self) => {
+            const total = track.querySelectorAll('.work-card:not([hidden])').length
+            bar.style.transform = `scaleX(${self.progress})`
+            countEl.textContent = pad(Math.min(total, 1 + Math.floor(self.progress * total)))
+            totalEl.textContent = pad(total)
+            // Lean slightly into fast scrolling
+            skew(gsap.utils.clamp(-4, 4, self.getVelocity() / -300))
+          },
         },
-      },
-    })
+      })
 
-    return () => ScrollTrigger.removeEventListener('scrollEnd', settle)
-  })
+      return () => ScrollTrigger.removeEventListener('scrollEnd', settle)
+    })
+  }
 
   /* ---------- Stacking service cards ---------- */
   const cards = gsap.utils.toArray('.scard')
