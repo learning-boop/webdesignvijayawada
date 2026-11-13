@@ -3307,6 +3307,114 @@ html:not(.motion) .dr-text .w {
   color: var(--c);
 }
 
+/* ---------- Photos ---------- */
+.photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page-hero.has-photo {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  align-items: center;
+  gap: clamp(28px, 4vw, 64px);
+  padding-inline: max(clamp(16px, 3.5vw, 56px), (100vw - var(--max)) / 2 + var(--gutter));
+}
+.page-hero.has-photo .page-hero-inner {
+  margin: 0;
+}
+.page-hero-photo {
+  position: relative;
+  order: 2;
+  margin: 0;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: 0 40px 80px -40px rgb(15 28 77 / 0.45);
+  rotate: 1.5deg;
+}
+.page-hero-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.4);
+  background: linear-gradient(160deg, transparent 60%, rgb(0 125 226 / 0.18));
+}
+@media (max-width: 900px) {
+  .page-hero.has-photo {
+    grid-template-columns: 1fr;
+  }
+  .page-hero-photo {
+    rotate: 0deg;
+    aspect-ratio: 16 / 10;
+  }
+}
+.split-photo {
+  margin: 0;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+.split-section .prose h2 {
+  margin: 4px 0 6px;
+  font-size: clamp(30px, 3.6vw, 46px);
+  color: var(--navy);
+}
+.split-section .prose .eyebrow {
+  align-self: flex-start;
+}
+.svc-cat-photo {
+  position: relative;
+  width: 100%;
+  margin: 0 0 6px;
+  aspect-ratio: 16 / 10;
+  border-radius: 18px;
+  overflow: hidden;
+}
+.svc-cat-photo .tile-icon {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  background: #fff;
+  box-shadow: var(--shadow-sm);
+}
+.post-cover {
+  margin: -28px -28px 6px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+.post-cover .photo {
+  transition: transform 0.8s var(--ease);
+}
+.post-card:hover .post-cover .photo {
+  transform: scale(1.05);
+}
+.office-photo {
+  grid-row: span 2;
+  margin: 0;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.office:has(.office-photo) {
+  grid-template-columns: 1fr 1.1fr;
+}
+.office:has(.office-photo) .btn {
+  justify-self: start;
+}
+@media (max-width: 860px) {
+  .office:has(.office-photo) {
+    grid-template-columns: 1fr;
+  }
+  .office-photo {
+    grid-row: auto;
+  }
+}
+
 .page-404 {
   min-height: 70vh;
   display: flex;

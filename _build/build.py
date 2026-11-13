@@ -235,9 +235,18 @@ def crumbs_html(p, crumbs):
     return '<nav class="crumbs" aria-label="Breadcrumb">' + '<i aria-hidden="true">/</i>'.join(parts) + '</nav>'
 
 
-def page_hero(p, crumbs, eyebrow, title, lead, buttons=''):
-    return f'''      <section class="page-hero">
-        <div class="page-hero-art" aria-hidden="true">{brand_mark(p).replace('brand-mark', 'page-hero-mark')}</div>
+def photo(p, name, alt, cls='photo', eager=False):
+    """A stock photo from assets/photos (see assets/photos/CREDITS.md)."""
+    loading = '' if eager else ' loading="lazy"'
+    return f'<img class="{cls}" src="{p}assets/photos/{name}.webp" alt="{e(alt)}" width="1400" height="933"{loading} />'
+
+
+def page_hero(p, crumbs, eyebrow, title, lead, buttons='', image=None):
+    """image is (photo name, alt text); with it the hero becomes two columns."""
+    art = (f'<figure class="page-hero-photo">{photo(p, *image, eager=True)}</figure>' if image else
+           f'<div class="page-hero-art" aria-hidden="true">{brand_mark(p).replace("brand-mark", "page-hero-mark")}</div>')
+    return f'''      <section class="page-hero{' has-photo' if image else ''}">
+        {art}
         <div class="page-hero-inner">
           {crumbs_html(p, crumbs)}
           <p class="eyebrow">{e(eyebrow)}</p>
@@ -322,6 +331,24 @@ PROCESS = [('Discovery', 'A free call to understand your customers, competitors 
            ('Growth', 'After launch we track enquiries and rankings, then keep improving what works.')]
 
 
+CAT_ALT = {
+    'web': 'Website code on a laptop screen',
+    'branding': 'Colour swatches, pencils and brand sketches on a designer’s desk',
+    'marketing': 'A marketing team planning a campaign around laptops',
+    'apps': 'A hand holding a phone showing an app dashboard',
+    'content': 'A laptop and an open notebook on a writing desk',
+    'automation': 'A friendly robot working at a laptop',
+}
+BLOG_PHOTO = {
+    'why-your-business-needs-a-brand-not-just-a-logo': ('blog-brand', 'Branded business cards and stationery'),
+    '5-signs-your-website-is-costing-you-customers': ('blog-website', 'Someone browsing a business website on a laptop'),
+    'whatsapp-automation-the-secret-weapon-for-local-businesses': ('blog-whatsapp', 'A person replying to messages on a smartphone'),
+    'seo-vs-paid-ads-whats-right-for-your-business': ('blog-seo', 'Google search open on a laptop next to a coffee'),
+    'how-to-measure-if-your-digital-marketing-is-working': ('blog-analytics', 'A laptop showing marketing charts on a sunny desk'),
+    'the-real-cost-of-a-badly-designed-website': ('blog-design', 'A designer sketching website wireframes on paper'),
+}
+
+
 def process_steps():
     return '<ol class="steps steps-4">' + ''.join(
         f'<li class="reveal" style="--d: {i * 80}ms"><span class="step-n">{i + 1:02d}</span><h3>{t}</h3><p>{d}</p></li>'
@@ -352,18 +379,17 @@ def about():
         tl = ''.join(f'<li class="reveal"><b>{y}</b><p>{e(t)}</p></li>' for y, t in story)
         return f'''{page_hero(p, [('About us', 'about/')], 'Who we are', 'About <em>us</em>',
                   'We are a digital studio founded in Vijayawada, built for the small business owner who is serious about growth.',
-                  btns(p))}
+                  btns(p), image=('about-team', 'Our team collaborating around a conference table'))}
 
       <section class="section">
         {stats([(f'{YEARS}+', 'Years in business'), ('2000+', 'Projects delivered'), ('12+', 'Industries served'), ('5', 'Countries served')])}
       </section>
 
       <section class="section split-section">
-        <div class="section-head reveal">
+        <figure class="split-photo reveal">{photo(p, 'about-work', 'Two colleagues reviewing a website together on a laptop')}</figure>
+        <div class="prose reveal">
           <p class="eyebrow">Our mission</p>
           <h2>Great design shouldn’t be <span class="thin">a luxury</span></h2>
-        </div>
-        <div class="prose reveal">
           <p>Most digital agencies are built for big brands with big budgets. We built our studio for everyone else — the shop owner in Bengaluru, the clinic in Pune, the clothing label in Surat trying to reach customers online.</p>
           <p>We believe great design and smart marketing should not be a luxury. Our mission is to close the gap between what Indian small businesses look like and what they deserve to look like — so they can compete, grow, and thrive.</p>
         </div>
@@ -402,7 +428,7 @@ def services_index():
             chips = ''.join(f'<a class="svc-link" href="{p}services/{s}/">{e(C["services"][s]["title"])}<span aria-hidden="true">→</span></a>' for s in c['services'])
             blocks.append(f'''        <section class="svc-cat reveal" id="{c["anchor"]}" style="--c: {['var(--blue)', 'var(--pink)', 'var(--green)', '#8b6cf0', '#f2a900', '#1fa8c9'][i]}">
           <div class="svc-cat-head">
-            <span class="tile-icon">{icon(c["icon"])}</span>
+            <figure class="svc-cat-photo">{photo(p, 'cat-' + c['anchor'], CAT_ALT[c['anchor']])}<span class="tile-icon">{icon(c["icon"])}</span></figure>
             <h2>{e(c["name"])}</h2>
             <p>{e(c["blurb"])}</p>
             <span class="svc-count">{len(c["services"])} services</span>
@@ -441,7 +467,7 @@ def service_page(slug):
         work = ''.join(work_card(p, w) for w in s['related_work'])
         rel = ''.join(f'<a class="svc-link" href="{p}services/{x}/">{e(C["services"][x]["title"])}<span aria-hidden="true">→</span></a>' for x in others)
         return f'''{page_hero(p, [('Services', 'services/'), (s['title'], f'services/{slug}/')], s['category'], e(s['title']) + ' <span class="thin">in Vijayawada</span>',
-                  s['tagline'], btns(p))}
+                  s['tagline'], btns(p), image=('cat-' + cat['anchor'], CAT_ALT[cat['anchor']]))}
 
       <section class="section split-section">
         <div class="prose reveal">
@@ -578,6 +604,7 @@ def case_study(i, slug):
 def blog_index():
     def body(p):
         cards = ''.join(f'''<a class="post-card reveal" href="{p}blog/{s}/" style="--d: {(i % 3) * 80}ms">
+            <figure class="post-cover">{photo(p, *BLOG_PHOTO[s])}</figure>
             <span class="post-meta"><b>{e(b["category"])}</b> {e(b["date"])} · {e(b["read"])}</span>
             <h2>{e(b["title"])}</h2>
             <p>{e(b["excerpt"])}</p>
@@ -602,7 +629,7 @@ def blog_post(i, slug):
 
     def body(p):
         paras = ''.join(f'<p>{e(t)}</p>' for t in b['body'])
-        return f'''{page_hero(p, [('Blog', 'blog/'), (b['title'], f'blog/{slug}/')], f'{b["category"]} · {b["date"]} · {b["read"]}', e(b['title']), b['excerpt'])}
+        return f'''{page_hero(p, [('Blog', 'blog/'), (b['title'], f'blog/{slug}/')], f'{b["category"]} · {b["date"]} · {b["read"]}', e(b['title']), b['excerpt'], image=BLOG_PHOTO[slug])}
 
       <section class="section">
         <article class="article reveal">
@@ -638,7 +665,8 @@ def careers():
             <a class="btn btn-navy" href="mailto:{EMAIL}?subject={e('Application — ' + t)}">Apply via email {ARROW}</a>
           </article>''' for t, d in jobs)
         return f'''{page_hero(p, [('Careers', 'careers/')], 'Careers', 'Build what <em>matters.</em>',
-                  'We’re a small team helping Indian businesses look credible, grow digitally, and compete globally. If you care about craft and impact, you’ll fit right in.')}
+                  'We’re a small team helping Indian businesses look credible, grow digitally, and compete globally. If you care about craft and impact, you’ll fit right in.',
+                  image=('careers-team', 'Colleagues working together around a table in a bright office'))}
 
       <section class="section">
         <div class="section-head reveal">
@@ -697,6 +725,7 @@ def contact(form_html):
 
       <section class="section">
         <div class="office reveal">
+          <figure class="office-photo">{photo(p, 'vijayawada', 'The Krishna river at Vijayawada')}</figure>
           <div>
             <p class="eyebrow">Our office</p>
             <h2>Vijayawada, <span class="thin">Andhra Pradesh</span></h2>
