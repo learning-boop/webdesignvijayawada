@@ -57,7 +57,7 @@ def icon(name, cls=''):
 
 
 ARROW = icon('arrow', 'btn-arrow')
-NAV = [('Work', 'portfolio/'), ('Services', 'services/'), ('About', 'about/'), ('Blog', 'blog/'),
+NAV = [('Home', ''), ('Work', 'portfolio/'), ('Services', 'services/'), ('About', 'about/'), ('Blog', 'blog/'),
        ('Careers', 'careers/'), ('Contact', 'contact/')]
 WA_LOGO = (
     '<svg viewBox="0 0 32 32" aria-hidden="true" style="stroke: none"><circle cx="16" cy="16" r="14" fill="#25d366" />'
@@ -77,7 +77,7 @@ def brand_mark(p):
 def header(p, active=None):
     home = p or './'
     cur = ' aria-current="page"'
-    links = '\n'.join(f'        <a href="{p}{href}"{cur if href == active else ""}>{label}</a>' for label, href in NAV)
+    links = '\n'.join(f'        <a href="{p + href or "./"}"{cur if href == active else ""}>{label}</a>' for label, href in NAV)
     return f'''    <header class="nav" id="nav">
       <a href="{home}" class="brand" aria-label="{SITE} — home">
         {brand_mark(p)}
@@ -93,10 +93,6 @@ def header(p, active=None):
           {WA_LOGO}
           <span>WhatsApp</span>
         </a>
-        <a class="btn btn-navy nav-audit" href="{p}contact/">
-          Free website audit
-          {ARROW}
-        </a>
         <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
           <span></span><span></span>
         </button>
@@ -104,7 +100,6 @@ def header(p, active=None):
 
       <div class="mobile-menu" id="mobileMenu" hidden>
 {links}
-        <a class="btn btn-navy" href="{p}contact/">Free website audit</a>
       </div>
     </header>'''
 
@@ -193,12 +188,28 @@ def head(p, path, title, desc, jsonld):
   </head>'''
 
 
+def save(path, text):
+    """Write a file, retrying briefly: on Windows a preview server or antivirus can hold it for a moment."""
+    import time
+    for attempt in range(10):
+        try:
+            with open(path, 'w', encoding='utf-8', newline='\n') as f:
+                f.write(text)
+            return
+        except OSError:
+            if attempt == 9:
+                raise
+            time.sleep(0.3)
+
+
 PAGES = []  # (path, priority) for the sitemap
 
 
 def write(path, title, desc, body, active=None, crumbs=None, jsonld=None, prefix=None):
     """path is the page's folder (e.g. 'services/x/') or a root file name like '404.html'."""
     p = '../' * path.count('/') if prefix is None else prefix
+    if len(title) > 65:  # long titles get cut off in Google results, so drop the site name
+        title = title.replace(f' — {SITE}', '')
     jsonld = list(jsonld or [])
     if crumbs:
         items = [{'@type': 'ListItem', 'position': i + 1, 'name': n, 'item': BASE + h} for i, (n, h) in enumerate([('Home', '')] + crumbs)]
@@ -221,7 +232,7 @@ def write(path, title, desc, body, active=None, crumbs=None, jsonld=None, prefix
 '''
     out = os.path.join(ROOT, path, 'index.html') if path.endswith('/') else os.path.join(ROOT, path)
     os.makedirs(os.path.dirname(out), exist_ok=True)
-    open(out, 'w', encoding='utf-8', newline='\n').write(doc)
+    save(out, doc)
     if path.endswith('/'):
         PAGES.append(path)
 
@@ -310,7 +321,8 @@ def shot(p, w, big=False):
 def work_card(p, slug, n=None):
     w = C['work'][slug]
     num = f'<span class="work-n">{n:02d}</span>' if n else ''
-    return f'''          <a class="work-card reveal" data-cat="{e(w["filter"])}" href="{p}work/{slug}/" style="--c: {w["color"]}">
+    # Cards open the client's live website in a new tab
+    return f'''          <a class="work-card reveal" data-cat="{e(w["filter"])}" href="{e(w["live"])}" target="_blank" rel="noopener noreferrer" style="--c: {w["color"]}">
             {shot(p, w)}
             <div class="work-meta">
               {num}
@@ -529,10 +541,11 @@ def portfolio():
     def body(p):
         chips = ''.join(f'<button class="filter{" is-active" if f == "All" else ""}" data-filter="{"all" if f == "All" else e(f)}" aria-pressed="{"true" if f == "All" else "false"}">{e(f)}</button>' for f in filters)
         cards = '\n'.join(work_card(p, s, i + 1) for i, s in enumerate(C['work_order']))
-        return f'''{page_hero(p, [('Portfolio', 'portfolio/')], f'{len(C["work_order"])} featured projects', 'Our <em>portfolio</em>',
+        return f'''{page_hero(p, [('Portfolio', 'portfolio/')], 'Featured projects', 'Our <em>portfolio</em>',
                   'Every project here started with a real business problem and ended with measurable results — websites, brands, e-commerce stores and digital campaigns, built by our in-house team.')}
 
       <section class="section">
+        <h2 class="sr-only">All projects</h2>
         <div class="filters reveal" role="group" aria-label="Filter projects">{chips}</div>
         <div class="pf-grid">
 {cards}
@@ -543,61 +556,6 @@ def portfolio():
 
     write('portfolio/', f'Portfolio — {SITE}', 'Websites, brands and platforms we have built for hospitals, clinics, schools, NGOs and movements in India and the UK.',
           body, active='portfolio/', crumbs=[('Portfolio', 'portfolio/')], jsonld=[ORG])
-
-
-def case_study(i, slug):
-    w = C['work'][slug]
-    nxt = C['work_order'][(i + 1) % len(C['work_order'])]
-
-    def body(p):
-        st = ''.join(f'<div><dd>{e(a)}</dd><dt>{e(b)}</dt></div>' for a, b in w['stats'])
-        did = ''.join(f'<li class="reveal" style="--d: {(j % 2) * 80}ms"><span class="step-n">{j + 1:02d}</span><h3>{e(d["title"])}</h3><p>{e(d["text"])}</p></li>' for j, d in enumerate(w['did']))
-        tags = ''.join(f'<li>{e(t)}</li>' for t in w['services'])
-        live = f'<a class="btn btn-navy btn-lg" href="{e(w["live"])}" target="_blank" rel="noopener noreferrer">Visit live site {ARROW}</a>' if w['live'] else ''
-        nw = C['work'][nxt]
-        return f'''{page_hero(p, [('Portfolio', 'portfolio/'), (w['name'], f'work/{slug}/')], f'{w["category"]} · {w["year"]}', e(w['name']),
-                  w['tagline'], live + f'<a class="btn btn-outline btn-lg" href="{p}contact/">Start a similar project</a>')}
-
-      <section class="section">
-        <div class="case-shot reveal" style="--c: {w['color']}">
-          {shot(p, w, big=True)}
-        </div>
-        <dl class="stat-row reveal">{st}</dl>
-      </section>
-
-      <section class="section case-grid">
-        <div class="reveal"><p class="eyebrow">Overview</p><p class="prose-lead">{e(w['overview'])}</p></div>
-        <div class="reveal"><p class="eyebrow">The challenge</p><p class="prose-lead">{e(w['challenge'])}</p></div>
-      </section>
-
-      <section class="section">
-        <div class="section-head reveal">
-          <p class="eyebrow">What we did</p>
-          <h2>How we <span class="thin">solved it</span></h2>
-        </div>
-        <ol class="steps steps-2">{did}</ol>
-      </section>
-
-      <section class="section">
-        <div class="outcome reveal" style="--c: {w['color']}">
-          <p class="eyebrow">The outcome</p>
-          <p>{e(w['outcome'])}</p>
-          <ul class="tags">{tags}</ul>
-        </div>
-      </section>
-
-      <section class="section">
-        <a class="next-case reveal" href="{p}work/{nxt}/" style="--c: {nw['color']}">
-          <span>Next case study</span>
-          <b>{e(nw['name'])}</b>
-          <span class="arrow" aria-hidden="true">→</span>
-        </a>
-      </section>
-
-{cta_band(p, 'Want results like these <span class="thin">for your business?</span>')}'''
-
-    write(f'work/{slug}/', f'{w["name"]} — case study — {SITE}', f'{w["name"]}: {w["tagline"]} {w["overview"]}'[:155], body, active='portfolio/',
-          crumbs=[('Portfolio', 'portfolio/'), (w['name'], f'work/{slug}/')])
 
 
 def blog_index():
@@ -627,7 +585,11 @@ def blog_post(i, slug):
     nxt = C['blog_order'][(i + 1) % len(C['blog_order'])]
 
     def body(p):
-        paras = ''.join(f'<p>{e(t)}</p>' for t in b['body'])
+        def para(t):
+            # "1. Point. Explanation…" → bold the numbered point so the list is easy to scan
+            m = re.match(r'(\d+\.\s[^.?!]+[.?!])\s(.*)', t)
+            return f'<p><strong>{e(m.group(1))}</strong> {e(m.group(2))}</p>' if m else f'<p>{e(t)}</p>'
+        paras = ''.join(para(t) for t in b['body'])
         return f'''{page_hero(p, [('Blog', 'blog/'), (b['title'], f'blog/{slug}/')], f'{b["category"]} · {b["date"]} · {b["read"]}', e(b['title']), b['excerpt'], image=BLOG_PHOTO[slug])}
 
       <section class="section">
@@ -642,7 +604,7 @@ def blog_post(i, slug):
         </a>
       </section>
 
-{cta_band(p, 'Want results like these <span class="thin">for your business?</span>')}'''
+{cta_band(p, 'Want this done right <span class="thin">for your business?</span>')}'''
 
     ld = {'@context': 'https://schema.org', '@type': 'BlogPosting', 'headline': b['title'], 'description': b['excerpt'],
           'author': {'@type': 'Organization', 'name': SITE}, 'publisher': {'@type': 'Organization', 'name': SITE}}
@@ -701,7 +663,7 @@ def contact(form_html):
             ('chat', 'Chat now', f'<a href="{WHATSAPP}" target="_blank" rel="noopener noreferrer">Message us on WhatsApp</a>', '#1fa855'),
             ('pin', 'Find us', '<span>Vijayawada, Andhra Pradesh</span>', '#f2a900'),
         ]
-        cc = ''.join(f'<div class="contact-card reveal" style="--c: {c}; --d: {i * 80}ms"><span class="tile-icon">{icon(ic)}</span><h3>{t}</h3>{v}</div>' for i, (ic, t, v, c) in enumerate(cards))
+        cc = ''.join(f'<div class="contact-card reveal" style="--c: {c}; --d: {i * 80}ms"><span class="tile-icon">{icon(ic)}</span><h2>{t}</h2>{v}</div>' for i, (ic, t, v, c) in enumerate(cards))
         return f'''{page_hero(p, [('Contact', 'contact/')], 'Start a project', 'Tell us where you want your <em>business</em> to go.',
                   'You don’t need to know the marketing terminology. Tell us about your business and what you want to improve. We’ll help you figure out the next step.')}
 
@@ -786,11 +748,12 @@ def not_found():
 def sync_home():
     path = os.path.join(ROOT, 'index.html')
     s = open(path, encoding='utf-8').read()
-    s = re.sub(r'(<!-- site:header -->\n).*?(\n\s*<!-- /site:header -->)', lambda m: m.group(1) + header('') + m.group(2), s, flags=re.S)
+    s = re.sub(r'(<!-- site:header -->\n).*?(\n\s*<!-- /site:header -->)', lambda m: m.group(1) + header('', active='') + m.group(2), s, flags=re.S)
     s = re.sub(r'(<!-- site:footer -->\n).*?(\n\s*<!-- /site:footer -->)', lambda m: m.group(1) + footer('') + m.group(2), s, flags=re.S)
     s = re.sub(r'(styles\.css|script\.js|motion\.js)\?v=[\w]+', lambda m: f'{m.group(1)}?v={V}', s)
     s = s.replace('https://www.webdesigninvijayawada.com/', BASE)
-    open(path, 'w', encoding='utf-8', newline='\n').write(s)
+    s = s.replace('content="assets/logo.png"', f'content="{BASE}assets/logo.png"').replace('"image": "assets/logo.png"', f'"image": "{BASE}assets/logo.png"')
+    save(path, s)
     form = re.search(r'<form class="form" id="enquiry".*?</form>', s, flags=re.S).group(0)
     return form
 
@@ -798,9 +761,9 @@ def sync_home():
 def sitemap():
     urls = [''] + PAGES
     xml = ''.join(f'<url><loc>{BASE}{u}</loc></url>' for u in urls)
-    open(os.path.join(ROOT, 'sitemap.xml'), 'w', encoding='utf-8', newline='\n').write(
-        f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{xml}</urlset>\n')
-    open(os.path.join(ROOT, 'robots.txt'), 'w', encoding='utf-8', newline='\n').write(f'User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n')
+    save(os.path.join(ROOT, 'sitemap.xml'),
+         f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{xml}</urlset>\n')
+    save(os.path.join(ROOT, 'robots.txt'), f'User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n')
 
 
 if __name__ == '__main__':
@@ -810,8 +773,6 @@ if __name__ == '__main__':
     for slug in C['services']:
         service_page(slug)
     portfolio()
-    for i, slug in enumerate(C['work_order']):
-        case_study(i, slug)
     blog_index()
     for i, slug in enumerate(C['blog_order']):
         blog_post(i, slug)

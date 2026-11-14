@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../../styles.css?v=6be229bd" />
+    <link rel="stylesheet" href="../../styles.css?v=f739ccc1" />
     <script>
       // Scroll animations are on unless the visitor prefers reduced motion.
       if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -38,6 +38,7 @@
       </a>
 
       <nav class="nav-links" aria-label="Main">
+        <a href="../../">Home</a>
         <a href="../../portfolio/">Work</a>
         <a href="../../services/" aria-current="page">Services</a>
         <a href="../../about/">About</a>
@@ -51,23 +52,19 @@
           <svg viewBox="0 0 32 32" aria-hidden="true" style="stroke: none"><circle cx="16" cy="16" r="14" fill="#25d366" /><path fill="#fff" d="M21.6 18.3c-.3-.2-1.8-.9-2-1s-.5-.2-.7.2-.8 1-.9 1.2-.3.2-.6.1a7.6 7.6 0 0 1-3.8-3.3c-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c1.9.8 2.7.9 3.6.7a3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3z" /></svg>
           <span>WhatsApp</span>
         </a>
-        <a class="btn btn-navy nav-audit" href="../../contact/">
-          Free website audit
-          <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-        </a>
         <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
           <span></span><span></span>
         </button>
       </div>
 
       <div class="mobile-menu" id="mobileMenu" hidden>
+        <a href="../../">Home</a>
         <a href="../../portfolio/">Work</a>
         <a href="../../services/" aria-current="page">Services</a>
         <a href="../../about/">About</a>
         <a href="../../blog/">Blog</a>
         <a href="../../careers/">Careers</a>
         <a href="../../contact/">Contact</a>
-        <a class="btn btn-navy" href="../../contact/">Free website audit</a>
       </div>
     </header>
 
@@ -109,7 +106,7 @@
           <h2>Projects like yours — <span class="thin">delivered</span></h2>
         </div>
         <div class="pf-grid">
-          <a class="work-card reveal" data-cat="Aesthetics" href="../../work/threadlift/" style="--c: #f2a900">
+          <a class="work-card reveal" data-cat="Aesthetics" href="https://threadlift.uk" target="_blank" rel="noopener noreferrer" style="--c: #f2a900">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>threadlift.uk</span></div>
               <div class="shot-view">
@@ -129,7 +126,7 @@
               <div><h3>Thread Lift</h3><p>Aesthetics · Thread Treatments</p></div>
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
-          </a>          <a class="work-card reveal" data-cat="Aesthetics" href="../../work/rma/" style="--c: #007de2">
+          </a>          <a class="work-card reveal" data-cat="Aesthetics" href="https://rugbymedicalaesthetics.co.uk" target="_blank" rel="noopener noreferrer" style="--c: #007de2">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>rugbymedicalaesthetics.co.uk</span></div>
               <div class="shot-view">
@@ -141,19 +138,11 @@
               <div><h3>Rugby Medical Aesthetics</h3><p>Aesthetics · Medical Clinic</p></div>
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
-          </a>          <a class="work-card reveal" data-cat="Healthcare" href="../../work/meditron-cdc/" style="--c: #65b41f">
+          </a>          <a class="work-card reveal" data-cat="Healthcare" href="https://meditroncdc.com" target="_blank" rel="noopener noreferrer" style="--c: #65b41f">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>meditroncdc.com</span></div>
               <div class="shot-view">
-                <div class="shot-page mock-page" aria-hidden="true">
-                  <div class="mp-nav"><b>Meditron CDC</b><span></span><span></span><span></span></div>
-                  <div class="mp-hero"><b>Helping parents find the right care for their child — starting with the first search.</b><s></s><s class="short"></s><div class="mock-row"><u></u><u class="ghost"></u></div></div>
-                  <div class="mp-tiles"><em></em><em></em><em></em></div>
-                  <div class="mp-split"><em></em><div><s></s><s></s><s class="short"></s></div></div>
-                  <div class="mp-tiles"><em></em><em></em><em></em></div>
-                  <div class="mp-band"></div>
-                  <div class="mp-foot"><s></s><s class="short"></s></div>
-                </div>
+                <img class="shot-page" src="../../assets/work/meditron-cdc.webp" alt="Meditron CDC website" loading="lazy" />
               </div>
             </div>
             <div class="work-meta">
@@ -161,7 +150,7 @@
               <div><h3>Meditron CDC</h3><p>Healthcare · Paediatric Therapy</p></div>
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
-          </a>          <a class="work-card reveal" data-cat="Aesthetics" href="../../work/kensley-aesthetics/" style="--c: #c4148f">
+          </a>          <a class="work-card reveal" data-cat="Aesthetics" href="https://kensleyaesthetics.co.uk" target="_blank" rel="noopener noreferrer" style="--c: #c4148f">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>kensleyaesthetics.co.uk</span></div>
               <div class="shot-view">
@@ -265,10 +254,10 @@
       Chat on WhatsApp
     </a>
 
-    <script src="../../script.js?v=6be229bd" defer></script>
+    <script src="../../script.js?v=f739ccc1" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
-    <script src="../../motion.js?v=6be229bd" defer></script>
+    <script src="../../motion.js?v=f739ccc1" defer></script>
   </body>
 </html>

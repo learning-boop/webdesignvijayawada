@@ -106,28 +106,6 @@
     })
   }
 
-  // Floating audit card: appears once the visitor scrolls past the hero, remembered when closed
-  const promo = document.getElementById('promo')
-  if (promo) {
-    let dismissed = false
-    try {
-      dismissed = localStorage.getItem('wdv-promo-closed') === '1'
-    } catch {}
-    const showPromo = () => {
-      if (dismissed || window.scrollY < (hero ? hero.offsetHeight : 600)) return
-      promo.hidden = false
-      window.removeEventListener('scroll', showPromo)
-    }
-    window.addEventListener('scroll', showPromo, { passive: true })
-    document.getElementById('promoClose').addEventListener('click', () => {
-      dismissed = true
-      promo.hidden = true
-      try {
-        localStorage.setItem('wdv-promo-closed', '1')
-      } catch {}
-    })
-  }
-
   // Enquiry form → opens WhatsApp with the message pre-filled (no backend needed)
   const form = document.getElementById('enquiry')
   const error = document.getElementById('formError')

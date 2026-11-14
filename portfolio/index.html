@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../styles.css?v=6be229bd" />
+    <link rel="stylesheet" href="../styles.css?v=f739ccc1" />
     <script>
       // Scroll animations are on unless the visitor prefers reduced motion.
       if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -38,6 +38,7 @@
       </a>
 
       <nav class="nav-links" aria-label="Main">
+        <a href="../">Home</a>
         <a href="../portfolio/" aria-current="page">Work</a>
         <a href="../services/">Services</a>
         <a href="../about/">About</a>
@@ -51,23 +52,19 @@
           <svg viewBox="0 0 32 32" aria-hidden="true" style="stroke: none"><circle cx="16" cy="16" r="14" fill="#25d366" /><path fill="#fff" d="M21.6 18.3c-.3-.2-1.8-.9-2-1s-.5-.2-.7.2-.8 1-.9 1.2-.3.2-.6.1a7.6 7.6 0 0 1-3.8-3.3c-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c1.9.8 2.7.9 3.6.7a3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3z" /></svg>
           <span>WhatsApp</span>
         </a>
-        <a class="btn btn-navy nav-audit" href="../contact/">
-          Free website audit
-          <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-        </a>
         <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
           <span></span><span></span>
         </button>
       </div>
 
       <div class="mobile-menu" id="mobileMenu" hidden>
+        <a href="../">Home</a>
         <a href="../portfolio/" aria-current="page">Work</a>
         <a href="../services/">Services</a>
         <a href="../about/">About</a>
         <a href="../blog/">Blog</a>
         <a href="../careers/">Careers</a>
         <a href="../contact/">Contact</a>
-        <a class="btn btn-navy" href="../contact/">Free website audit</a>
       </div>
     </header>
 
@@ -76,7 +73,7 @@
         <div class="page-hero-art" aria-hidden="true"><span class="page-hero-mark" aria-hidden="true"><img class="hand hand-blue" src="../assets/hand-blue.png" alt="" /><img class="hand hand-pink" src="../assets/hand-pink.png" alt="" /><img class="dot" src="../assets/dot-green.png" alt="" /></span></div>
         <div class="page-hero-inner">
           <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><i aria-hidden="true">/</i><span aria-current="page">Portfolio</span></nav>
-          <p class="eyebrow">17 featured projects</p>
+          <p class="eyebrow">Featured projects</p>
           <h1>Our <em>portfolio</em></h1>
           <p class="lead">Every project here started with a real business problem and ended with measurable results — websites, brands, e-commerce stores and digital campaigns, built by our in-house team.</p>
           
@@ -84,9 +81,10 @@
       </section>
 
       <section class="section">
+        <h2 class="sr-only">All projects</h2>
         <div class="filters reveal" role="group" aria-label="Filter projects"><button class="filter is-active" data-filter="all" aria-pressed="true">All</button><button class="filter" data-filter="Aesthetics" aria-pressed="false">Aesthetics</button><button class="filter" data-filter="Healthcare" aria-pressed="false">Healthcare</button><button class="filter" data-filter="Education" aria-pressed="false">Education</button><button class="filter" data-filter="Non-Profit" aria-pressed="false">Non-Profit</button><button class="filter" data-filter="Public Awareness" aria-pressed="false">Public Awareness</button><button class="filter" data-filter="Recruitment" aria-pressed="false">Recruitment</button><button class="filter" data-filter="Pet Care" aria-pressed="false">Pet Care</button></div>
         <div class="pf-grid">
-          <a class="work-card reveal" data-cat="Aesthetics" href="../work/threadlift/" style="--c: #f2a900">
+          <a class="work-card reveal" data-cat="Aesthetics" href="https://threadlift.uk" target="_blank" rel="noopener noreferrer" style="--c: #f2a900">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>threadlift.uk</span></div>
               <div class="shot-view">
@@ -107,7 +105,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Aesthetics" href="../work/rma/" style="--c: #007de2">
+          <a class="work-card reveal" data-cat="Aesthetics" href="https://rugbymedicalaesthetics.co.uk" target="_blank" rel="noopener noreferrer" style="--c: #007de2">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>rugbymedicalaesthetics.co.uk</span></div>
               <div class="shot-view">
@@ -120,19 +118,11 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Healthcare" href="../work/meditron-cdc/" style="--c: #65b41f">
+          <a class="work-card reveal" data-cat="Healthcare" href="https://meditroncdc.com" target="_blank" rel="noopener noreferrer" style="--c: #65b41f">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>meditroncdc.com</span></div>
               <div class="shot-view">
-                <div class="shot-page mock-page" aria-hidden="true">
-                  <div class="mp-nav"><b>Meditron CDC</b><span></span><span></span><span></span></div>
-                  <div class="mp-hero"><b>Helping parents find the right care for their child — starting with the first search.</b><s></s><s class="short"></s><div class="mock-row"><u></u><u class="ghost"></u></div></div>
-                  <div class="mp-tiles"><em></em><em></em><em></em></div>
-                  <div class="mp-split"><em></em><div><s></s><s></s><s class="short"></s></div></div>
-                  <div class="mp-tiles"><em></em><em></em><em></em></div>
-                  <div class="mp-band"></div>
-                  <div class="mp-foot"><s></s><s class="short"></s></div>
-                </div>
+                <img class="shot-page" src="../assets/work/meditron-cdc.webp" alt="Meditron CDC website" loading="lazy" />
               </div>
             </div>
             <div class="work-meta">
@@ -141,19 +131,11 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Aesthetics" href="../work/fillers-skin/" style="--c: #8b6cf0">
+          <a class="work-card reveal" data-cat="Aesthetics" href="https://fillers.skin" target="_blank" rel="noopener noreferrer" style="--c: #8b6cf0">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>fillers.skin</span></div>
               <div class="shot-view">
-                <div class="shot-page mock-page" aria-hidden="true">
-                  <div class="mp-nav"><b>Fillers Skin</b><span></span><span></span><span></span></div>
-                  <div class="mp-hero"><b>The art of refined presence.</b><s></s><s class="short"></s><div class="mock-row"><u></u><u class="ghost"></u></div></div>
-                  <div class="mp-tiles"><em></em><em></em><em></em></div>
-                  <div class="mp-split"><em></em><div><s></s><s></s><s class="short"></s></div></div>
-                  <div class="mp-tiles"><em></em><em></em><em></em></div>
-                  <div class="mp-band"></div>
-                  <div class="mp-foot"><s></s><s class="short"></s></div>
-                </div>
+                <img class="shot-page" src="../assets/work/fillers-skin.webp" alt="Fillers Skin website" loading="lazy" />
               </div>
             </div>
             <div class="work-meta">
@@ -162,7 +144,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Aesthetics" href="../work/prp-treatment/" style="--c: #f40f6c">
+          <a class="work-card reveal" data-cat="Aesthetics" href="https://prp.skin" target="_blank" rel="noopener noreferrer" style="--c: #f40f6c">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>prp.skin</span></div>
               <div class="shot-view">
@@ -183,7 +165,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Aesthetics" href="../work/aptos-uk/" style="--c: #2fa6d8">
+          <a class="work-card reveal" data-cat="Aesthetics" href="https://aptosuk.com" target="_blank" rel="noopener noreferrer" style="--c: #2fa6d8">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>aptosuk.com</span></div>
               <div class="shot-view">
@@ -204,7 +186,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Aesthetics" href="../work/botox/" style="--c: #e07a5f">
+          <a class="work-card reveal" data-cat="Aesthetics" href="https://botoxuk.com" target="_blank" rel="noopener noreferrer" style="--c: #e07a5f">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>botoxuk.com</span></div>
               <div class="shot-view">
@@ -225,7 +207,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Aesthetics" href="../work/buttock-lift/" style="--c: #1fa37a">
+          <a class="work-card reveal" data-cat="Aesthetics" href="https://buttocklift.uk" target="_blank" rel="noopener noreferrer" style="--c: #1fa37a">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>buttocklift.uk</span></div>
               <div class="shot-view">
@@ -246,7 +228,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Aesthetics" href="../work/kensley-aesthetics/" style="--c: #c4148f">
+          <a class="work-card reveal" data-cat="Aesthetics" href="https://kensleyaesthetics.co.uk" target="_blank" rel="noopener noreferrer" style="--c: #c4148f">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>kensleyaesthetics.co.uk</span></div>
               <div class="shot-view">
@@ -267,7 +249,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Aesthetics" href="../work/dr-matla/" style="--c: #f2a900">
+          <a class="work-card reveal" data-cat="Aesthetics" href="https://drmatla.co.uk" target="_blank" rel="noopener noreferrer" style="--c: #f2a900">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>drmatla.co.uk</span></div>
               <div class="shot-view">
@@ -288,7 +270,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Education" href="../work/st-pauls-school/" style="--c: #007de2">
+          <a class="work-card reveal" data-cat="Education" href="https://stpaulsvijayawada.com" target="_blank" rel="noopener noreferrer" style="--c: #007de2">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>stpaulsvijayawada.com</span></div>
               <div class="shot-view">
@@ -309,7 +291,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Non-Profit" href="../work/change-ngo/" style="--c: #65b41f">
+          <a class="work-card reveal" data-cat="Non-Profit" href="https://changengo.org" target="_blank" rel="noopener noreferrer" style="--c: #65b41f">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>changengo.org</span></div>
               <div class="shot-view">
@@ -330,7 +312,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Public Awareness" href="../work/jago-andhra/" style="--c: #8b6cf0">
+          <a class="work-card reveal" data-cat="Public Awareness" href="https://jagoandhra.com" target="_blank" rel="noopener noreferrer" style="--c: #8b6cf0">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>jagoandhra.com</span></div>
               <div class="shot-view">
@@ -343,7 +325,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Recruitment" href="../work/jobyatra-india/" style="--c: #f40f6c">
+          <a class="work-card reveal" data-cat="Recruitment" href="https://jobyatraindia.com" target="_blank" rel="noopener noreferrer" style="--c: #f40f6c">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>jobyatraindia.com</span></div>
               <div class="shot-view">
@@ -364,7 +346,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Healthcare" href="../work/aayush-hospitals/" style="--c: #2fa6d8">
+          <a class="work-card reveal" data-cat="Healthcare" href="https://www.aayushhospitals.com" target="_blank" rel="noopener noreferrer" style="--c: #2fa6d8">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>aayushhospitals.com</span></div>
               <div class="shot-view">
@@ -377,19 +359,11 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Pet Care" href="../work/kpetz/" style="--c: #e07a5f">
+          <a class="work-card reveal" data-cat="Pet Care" href="https://www.kpetz.com" target="_blank" rel="noopener noreferrer" style="--c: #e07a5f">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>kpetz.com</span></div>
               <div class="shot-view">
-                <div class="shot-page mock-page" aria-hidden="true">
-                  <div class="mp-nav"><b>K-Petz</b><span></span><span></span><span></span></div>
-                  <div class="mp-hero"><b>We love, care, treat your pets.</b><s></s><s class="short"></s><div class="mock-row"><u></u><u class="ghost"></u></div></div>
-                  <div class="mp-tiles"><em></em><em></em><em></em></div>
-                  <div class="mp-split"><em></em><div><s></s><s></s><s class="short"></s></div></div>
-                  <div class="mp-tiles"><em></em><em></em><em></em></div>
-                  <div class="mp-band"></div>
-                  <div class="mp-foot"><s></s><s class="short"></s></div>
-                </div>
+                <img class="shot-page" src="../assets/work/kpetz.webp" alt="K-Petz website" loading="lazy" />
               </div>
             </div>
             <div class="work-meta">
@@ -398,7 +372,7 @@
               <span class="arrow" aria-hidden="true">↗</span>
             </div>
           </a>
-          <a class="work-card reveal" data-cat="Healthcare" href="../work/mitra-hospitals/" style="--c: #1fa37a">
+          <a class="work-card reveal" data-cat="Healthcare" href="https://www.mithrahospitals.com" target="_blank" rel="noopener noreferrer" style="--c: #1fa37a">
             <div class="shot">
               <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>mithrahospitals.com</span></div>
               <div class="shot-view">
@@ -485,10 +459,10 @@
       Chat on WhatsApp
     </a>
 
-    <script src="../script.js?v=6be229bd" defer></script>
+    <script src="../script.js?v=f739ccc1" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
-    <script src="../motion.js?v=6be229bd" defer></script>
+    <script src="../motion.js?v=f739ccc1" defer></script>
   </body>
 </html>
