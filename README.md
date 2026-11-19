@@ -46,3 +46,11 @@ GitHub Pages doesn't publish folders that start with `_`, so `_build/` stays pri
 - `script.js` – logo intro (home), menu, project filters, contact form (opens WhatsApp)
 - `motion.js` – scroll animations (GSAP, ScrollTrigger and Lenis, loaded from jsDelivr)
 - `assets/` – logo, hero image and project screenshots (`assets/work/README.md` explains how to add more)
+
+## cPanel copy (websitedesigninvijayawada.com)
+
+After `python _build/build.py`, run `python _build/make_cpanel.py`. It writes
+`_cpanel/websitedesigninvijayawada-cpanel.zip`: the same site with every address
+switched to https://websitedesigninvijayawada.com/ plus an `.htaccess` (https, no-www,
+404 page, compression, caching). Upload the zip to `public_html` in cPanel File
+Manager and choose Extract. `_cpanel/` is not committed to git.

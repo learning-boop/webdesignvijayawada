@@ -22,7 +22,7 @@ YEARS = datetime.date.today().year - FOUNDED
 PHONE, PHONE_HREF = '+91 98859 33339', 'tel:+919885933339'
 EMAIL = 'info@creatorstouchglobal.com'
 WHATSAPP = 'https://wa.me/919885933339'
-SITE = 'Web Design in Vijayawada'
+SITE = 'Website Design Vijayawada'
 
 C = json.load(open(os.path.join(ROOT, '_build', 'content.json'), encoding='utf-8'))
 e = html.escape
@@ -81,7 +81,7 @@ def header(p, active=None):
     return f'''    <header class="nav" id="nav">
       <a href="{home}" class="brand" aria-label="{SITE} — home">
         {brand_mark(p)}
-        <span>Web Design <b>Vijayawada</b></span>
+        <span>Website Design <b>Vijayawada</b></span>
       </a>
 
       <nav class="nav-links" aria-label="Main">
@@ -114,7 +114,7 @@ def footer(p):
         <div class="footer-about">
           <a href="{p or './'}" class="brand">
             {brand_mark(p)}
-            <span>Web Design <b>Vijayawada</b></span>
+            <span>Website Design <b>Vijayawada</b></span>
           </a>
           <p>Websites, branding, SEO and automation for businesses in Vijayawada and around the world — {2000}+ brands since {FOUNDED}.</p>
           <a class="btn btn-navy" href="{p}contact/">Start your website {ARROW}</a>
